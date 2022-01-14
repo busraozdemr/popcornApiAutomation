@@ -1,0 +1,2435 @@
+15:27:48.300 [main] INFO  com.intuit.karate.Runner - karate.env is: 'popcorn'
+15:27:50.812 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:50.812 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:50.812 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:50.812 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:50.812 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:50.823 [pool-1-thread-2] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:features/userApi/customer/customer_login_authentication.feature
+15:27:52.348 [pool-1-thread-2] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:features/userApi/customer/customer_login_authentication.feature
+15:27:52.349 [pool-1-thread-1] WARN  com.intuit.karate - this thread waited 1526 milliseconds for callSingle lock: classpath:features/userApi/customer/customer_login_authentication.feature
+15:27:52.350 [pool-1-thread-3] WARN  com.intuit.karate - this thread waited 1527 milliseconds for callSingle lock: classpath:features/userApi/customer/customer_login_authentication.feature
+15:27:52.350 [pool-1-thread-4] WARN  com.intuit.karate - this thread waited 1527 milliseconds for callSingle lock: classpath:features/userApi/customer/customer_login_authentication.feature
+15:27:52.351 [pool-1-thread-5] WARN  com.intuit.karate - this thread waited 1527 milliseconds for callSingle lock: classpath:features/userApi/customer/customer_login_authentication.feature
+15:27:53.866 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"123\" to type 'System.Guid'. Path 'id', line 1, position 11."
+  ],
+  "validations": {
+    "id": [
+      "Error converting value \"123\" to type 'System.Guid'. Path 'id', line 1, position 11."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"123\" to type 'System.Guid'. Path 'id', line 1, position 11.",
+  "typeCode": 400
+}
+ 
+15:27:53.906 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:54.153 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Outside of service area!"
+  ],
+  "validations": {
+    "longitude": [
+      "Outside of service area!"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Outside of service area!",
+  "typeCode": 400
+}
+ 
+15:27:54.167 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:54.298 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:27:54.334 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:54.530 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Outside of service area!"
+  ],
+  "validations": {
+    "longitude": [
+      "Outside of service area!"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Outside of service area!",
+  "typeCode": 400
+}
+ 
+15:27:54.545 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:54.679 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "be.user.length"
+  ],
+  "validations": {
+    "streetAddress": [
+      "be.user.length"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "be.user.length",
+  "typeCode": 400
+}
+ 
+15:27:54.702 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:54.739 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Could not convert string to double: a. Path 'longitude', line 1, position 178."
+  ],
+  "validations": {
+    "longitude": [
+      "Could not convert string to double: a. Path 'longitude', line 1, position 178."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Could not convert string to double: a. Path 'longitude', line 1, position 178.",
+  "typeCode": 400
+}
+ 
+15:27:54.747 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:54.767 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:27:54.956 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"\" to type 'System.Guid'. Path 'id', line 1, position 8."
+  ],
+  "validations": {
+    "id": [
+      "Error converting value \"\" to type 'System.Guid'. Path 'id', line 1, position 8."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"\" to type 'System.Guid'. Path 'id', line 1, position 8.",
+  "typeCode": 400
+}
+ 
+15:27:54.971 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:54.988 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:27:55.144 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Could not convert string to double: a. Path 'latitude', line 1, position 202."
+  ],
+  "validations": {
+    "latitude": [
+      "Could not convert string to double: a. Path 'latitude', line 1, position 202."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Could not convert string to double: a. Path 'latitude', line 1, position 202.",
+  "typeCode": 400
+}
+ 
+15:27:55.165 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:55.166 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value {null} to type 'System.Double'. Path 'longitude', line 1, position 177."
+  ],
+  "validations": {
+    "longitude": [
+      "Error converting value {null} to type 'System.Double'. Path 'longitude', line 1, position 177."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value {null} to type 'System.Double'. Path 'longitude', line 1, position 177.",
+  "typeCode": 400
+}
+ 
+15:27:55.174 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:55.187 [pool-1-thread-2] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:27:55.188 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressInfo
+15:27:55.205 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:27:55.821 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:27:56.215 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:27:56.539 [pool-1-thread-4] INFO  com.intuit.karate - [print] Customer Address List Response -->  {
+  "page": {
+    "pageNumber": 0,
+    "pageSize": 0,
+    "hasNext": false,
+    "totalCount": 2
+  },
+  "items": [
+    {
+      "titleType": 10,
+      "streetAddress": "688 Geary St, San Francisco",
+      "latitude": 37.78660022692915,
+      "additionalInfo": null,
+      "isSelectedShippingAddress": false,
+      "id": "7c78f10a-71a6-4258-8a36-e09807053172",
+      "title": "Home",
+      "type": 1,
+      "longitude": -122.41467263549566
+    },
+    {
+      "titleType": 10,
+      "streetAddress": "335 Leavenworth St, San Francisco, CA 94102, United States",
+      "latitude": 37.7839295,
+      "additionalInfo": "string",
+      "isSelectedShippingAddress": false,
+      "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+      "title": "string",
+      "type": 1,
+      "longitude": -122.4174298
+    }
+  ]
+}
+ 
+15:27:56.580 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:56.606 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressInfo
+15:27:56.617 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:27:57.408 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:27:57.803 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "be.user.required",
+    "be.user.length"
+  ],
+  "validations": {
+    "streetAddress": [
+      "be.user.required",
+      "be.user.length"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "be.user.required",
+  "typeCode": 400
+}
+ 
+15:27:57.831 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:57.857 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:27:58.002 [pool-1-thread-4] INFO  com.intuit.karate - [print] Customer Address List Response -->  {
+  "page": {
+    "pageNumber": 0,
+    "pageSize": 0,
+    "hasNext": false,
+    "totalCount": 2
+  },
+  "items": [
+    {
+      "titleType": 10,
+      "streetAddress": "688 Geary St, San Francisco",
+      "latitude": 37.78660022692915,
+      "additionalInfo": null,
+      "isSelectedShippingAddress": false,
+      "id": "7c78f10a-71a6-4258-8a36-e09807053172",
+      "title": "Home",
+      "type": 1,
+      "longitude": -122.41467263549566
+    },
+    {
+      "titleType": 10,
+      "streetAddress": "335 Leavenworth St, San Francisco, CA 94102, United States",
+      "latitude": 37.7839295,
+      "additionalInfo": "string",
+      "isSelectedShippingAddress": false,
+      "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+      "title": "string",
+      "type": 1,
+      "longitude": -122.4174298
+    }
+  ]
+}
+ 
+15:27:59.184 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 25 (24 remaining) classpath:features/userApi/address/customer_address_create.feature
+15:27:59.759 [pool-1-thread-4] INFO  com.intuit.karate - [print] response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+15:27:59.762 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:27:59.761 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:27:59.762 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:27:59.874 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:59.874 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:27:59.896 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:28:00.824 [pool-1-thread-3] INFO  com.intuit.karate - [print] Customer Address List Response -->  {
+  "page": {
+    "pageNumber": 0,
+    "pageSize": 0,
+    "hasNext": false,
+    "totalCount": 2
+  },
+  "items": [
+    {
+      "titleType": 10,
+      "streetAddress": "688 Geary St, San Francisco",
+      "latitude": 37.78660022692915,
+      "additionalInfo": null,
+      "isSelectedShippingAddress": false,
+      "id": "7c78f10a-71a6-4258-8a36-e09807053172",
+      "title": "Home",
+      "type": 1,
+      "longitude": -122.41467263549566
+    },
+    {
+      "titleType": 10,
+      "streetAddress": "335 Leavenworth St, San Francisco, CA 94102, United States",
+      "latitude": 37.7839295,
+      "additionalInfo": "string",
+      "isSelectedShippingAddress": false,
+      "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+      "title": "string",
+      "type": 1,
+      "longitude": -122.4174298
+    }
+  ]
+}
+ 
+15:28:00.824 [pool-1-thread-5] INFO  com.intuit.karate - [print] Customer Get Address For Order Response --> {
+  "lastName": null,
+  "identifier": null,
+  "titleType": 10,
+  "country": {
+    "name": "USA",
+    "id": "81a2f978-226e-46e5-87b1-950e67b7f550"
+  },
+  "stateId": "2e129561-3cf3-4b14-a601-54a8bf06950e",
+  "postalCode": null,
+  "latitude": 37.7839295,
+  "county": {
+    "name": "San Francisco",
+    "id": "526b7254-9192-4fbb-a225-9ba4297a0599"
+  },
+  "taxNumber": null,
+  "title": "string",
+  "type": 1,
+  "countryId": "81a2f978-226e-46e5-87b1-950e67b7f550",
+  "corporateName": null,
+  "firstName": null,
+  "streetAddress": "335 Leavenworth St, San Francisco, CA 94102, United States",
+  "phone": null,
+  "countyId": "526b7254-9192-4fbb-a225-9ba4297a0599",
+  "additionalInfo": "string",
+  "taxOffice": null,
+  "state": {
+    "name": "California",
+    "id": "2e129561-3cf3-4b14-a601-54a8bf06950e"
+  },
+  "email": null,
+  "longitude": -122.4174298
+}
+ 
+15:28:00.852 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:00.859 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @markSelectedAddress
+15:28:00.865 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressInfo
+15:28:00.876 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:28:01.458 [pool-1-thread-1] INFO  com.intuit.karate - [print] cacheStatus --> DYNAMIC 
+15:28:01.461 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:01.464 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:01.474 [pool-1-thread-2] INFO  com.intuit.karate - [print] response -->  {
+  "page": {
+    "pageNumber": 0,
+    "pageSize": 0,
+    "hasNext": false,
+    "totalCount": 2
+  },
+  "items": [
+    {
+      "titleType": 10,
+      "streetAddress": "688 Geary St, San Francisco",
+      "latitude": 37.78660022692915,
+      "additionalInfo": null,
+      "isSelectedShippingAddress": true,
+      "id": "7c78f10a-71a6-4258-8a36-e09807053172",
+      "title": "Home",
+      "type": 1,
+      "longitude": -122.41467263549566
+    },
+    {
+      "titleType": 10,
+      "streetAddress": "335 Leavenworth St, San Francisco, CA 94102, United States",
+      "latitude": 37.7839295,
+      "additionalInfo": "string",
+      "isSelectedShippingAddress": false,
+      "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+      "title": "string",
+      "type": 1,
+      "longitude": -122.4174298
+    }
+  ]
+}
+ 
+15:28:01.477 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @markSelectedAddress
+15:28:01.493 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:01.494 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressInfo
+15:28:01.502 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:28:01.805 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:28:01.898 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 25 (23 remaining) classpath:features/userApi/address/customer_address_list.feature
+15:28:02.159 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 25 (22 remaining) classpath:features/userApi/address/customer_address_mark_selected.feature
+15:28:02.293 [pool-1-thread-1] INFO  com.intuit.karate - [print] response -->  [
+  {
+    "isDefault": true,
+    "color": null,
+    "name": "be.user.enums.addresstype.unknown",
+    "displayOrder": 0,
+    "id": 0,
+    "enumName": "Unknown",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "be.user.enums.addresstype.delivery",
+    "displayOrder": 0,
+    "id": 1,
+    "enumName": "Delivery",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "be.user.enums.addresstype.residence",
+    "displayOrder": 0,
+    "id": 2,
+    "enumName": "Residence",
+    "shortName": null
+  }
+]
+ 
+15:28:02.322 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:28:02.323 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:02.398 [pool-1-thread-2] INFO  com.intuit.karate - [print] response -->  [
+  {
+    "isDefault": true,
+    "color": null,
+    "name": null,
+    "displayOrder": 0,
+    "id": 0,
+    "enumName": "Unknown",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": null,
+    "displayOrder": 0,
+    "id": 10,
+    "enumName": "Image",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": null,
+    "displayOrder": 0,
+    "id": 20,
+    "enumName": "Video",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": null,
+    "displayOrder": 0,
+    "id": 30,
+    "enumName": "Audio",
+    "shortName": null
+  }
+]
+ 
+15:28:02.413 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:02.534 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:02.702 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:28:02.892 [pool-1-thread-5] INFO  com.intuit.karate - [print] Customer Address List Response -->  {
+  "page": {
+    "pageNumber": 0,
+    "pageSize": 0,
+    "hasNext": false,
+    "totalCount": 2
+  },
+  "items": [
+    {
+      "titleType": 10,
+      "streetAddress": "688 Geary St, San Francisco",
+      "latitude": 37.78660022692915,
+      "additionalInfo": null,
+      "isSelectedShippingAddress": false,
+      "id": "7c78f10a-71a6-4258-8a36-e09807053172",
+      "title": "Home",
+      "type": 1,
+      "longitude": -122.41467263549566
+    },
+    {
+      "titleType": 10,
+      "streetAddress": "335 Leavenworth St, San Francisco, CA 94102, United States",
+      "latitude": 37.7839295,
+      "additionalInfo": "string",
+      "isSelectedShippingAddress": false,
+      "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+      "title": "string",
+      "type": 1,
+      "longitude": -122.4174298
+    }
+  ]
+}
+ 
+15:28:02.892 [pool-1-thread-1] INFO  com.intuit.karate - [print] response -->  [
+  {
+    "isDefault": true,
+    "color": null,
+    "name": "be.user.enums.riderstatus.active",
+    "displayOrder": 0,
+    "id": 1,
+    "enumName": "Active",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "be.user.enums.riderstatus.inactive",
+    "displayOrder": 0,
+    "id": 2,
+    "enumName": "Inactive",
+    "shortName": null
+  }
+]
+ 
+15:28:02.934 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:02.952 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 25 (21 remaining) classpath:features/userApi/address/customer_get_address_for_order.feature
+15:28:02.988 [pool-1-thread-2] INFO  com.intuit.karate - [print] response -->  [
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "Passive",
+    "displayOrder": 0,
+    "id": 0,
+    "enumName": "UnPublished",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "Active",
+    "displayOrder": 0,
+    "id": 1,
+    "enumName": "Published",
+    "shortName": null
+  },
+  {
+    "isDefault": true,
+    "color": null,
+    "name": "Archived",
+    "displayOrder": 0,
+    "id": 2,
+    "enumName": "Junk",
+    "shortName": null
+  }
+]
+ 
+15:28:02.995 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:03.145 [pool-1-thread-4] INFO  com.intuit.karate - [print] response -->  [
+  {
+    "isDefault": true,
+    "color": null,
+    "name": "Home",
+    "displayOrder": 0,
+    "id": 10,
+    "enumName": "Home",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "Work",
+    "displayOrder": 0,
+    "id": 20,
+    "enumName": "Work",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "Other",
+    "displayOrder": 0,
+    "id": 30,
+    "enumName": "Other",
+    "shortName": null
+  }
+]
+ 
+15:28:03.153 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:03.288 [pool-1-thread-3] INFO  com.intuit.karate - [print] Customer Address List Response -->  {
+  "page": {
+    "pageNumber": 0,
+    "pageSize": 0,
+    "hasNext": false,
+    "totalCount": 2
+  },
+  "items": [
+    {
+      "titleType": 10,
+      "streetAddress": "688 Geary St, San Francisco",
+      "latitude": 37.78660022692915,
+      "additionalInfo": null,
+      "isSelectedShippingAddress": false,
+      "id": "7c78f10a-71a6-4258-8a36-e09807053172",
+      "title": "Home",
+      "type": 1,
+      "longitude": -122.41467263549566
+    },
+    {
+      "titleType": 10,
+      "streetAddress": "335 Leavenworth St, San Francisco, CA 94102, United States",
+      "latitude": 37.7839295,
+      "additionalInfo": "string",
+      "isSelectedShippingAddress": false,
+      "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+      "title": "string",
+      "type": 1,
+      "longitude": -122.4174298
+    }
+  ]
+}
+ 
+15:28:03.528 [pool-1-thread-1] INFO  com.intuit.karate - [print] response -->  [
+  {
+    "isDefault": true,
+    "color": null,
+    "name": "be.user.enums.userstatus.active",
+    "displayOrder": 0,
+    "id": 1,
+    "enumName": "Active",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "be.user.enums.userstatus.passive",
+    "displayOrder": 1,
+    "id": 0,
+    "enumName": "Passive",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "be.user.enums.userstatus.blocked",
+    "displayOrder": 2,
+    "id": 2,
+    "enumName": "Blocked",
+    "shortName": null
+  },
+  {
+    "isDefault": false,
+    "color": null,
+    "name": "be.user.enums.userstatus.notverified",
+    "displayOrder": 3,
+    "id": 3,
+    "enumName": "NotVerified",
+    "shortName": null
+  }
+]
+ 
+15:28:03.539 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:03.742 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer create without authorization response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+15:28:03.752 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:04.074 [pool-1-thread-2] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "0bec4e41-4e3b-4e71-99a3-9559d103ba83",
+  "nationalSecurityNumber": null,
+  "email": "etjv42h@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "uetwgdd",
+  "employeeId": null,
+  "userId": "b3fe52c5-069f-4bf7-bbd3-955d95d98af4",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "uetwgdd",
+  "phoneNumber": "3831264501",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:04.088 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:04.523 [pool-1-thread-1] INFO  com.intuit.karate - [print] customer create with wrong data response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Email.NotValid",
+    "be.user.length"
+  ],
+  "validations": {
+    "email": [
+      "Email.NotValid",
+      "be.user.length"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Email.NotValid",
+  "typeCode": 400
+}
+ 
+15:28:04.536 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:04.595 [pool-1-thread-5] INFO  com.intuit.karate - [print] customer get selected address response  -->  {
+  "titleType": 10,
+  "eta": 27,
+  "streetAddress": "688 Geary St, San Francisco",
+  "latitude": 37.78660022692915,
+  "additionalInfo": null,
+  "id": "7c78f10a-71a6-4258-8a36-e09807053172",
+  "title": "Home",
+  "type": 1,
+  "longitude": -122.41467263549566
+}
+ 
+15:28:04.604 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressInfo
+15:28:04.612 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 11 by tag: @getAddressId
+15:28:04.887 [pool-1-thread-3] INFO  com.intuit.karate - [print] customer get selected address response  -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+15:28:04.898 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:04.937 [pool-1-thread-2] INFO  com.intuit.karate - [print] customer create with wrong data response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Phone.AlreadyUsed"
+  ],
+  "validations": {
+    "phoneNumber": [
+      "Phone.AlreadyUsed"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Phone.AlreadyUsed",
+  "typeCode": 400
+}
+ 
+15:28:04.942 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:05.206 [pool-1-thread-1] INFO  com.intuit.karate - [print] customer create with wrong data response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Email.NotValid",
+    "be.user.length"
+  ],
+  "validations": {
+    "email": [
+      "Email.NotValid",
+      "be.user.length"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Email.NotValid",
+  "typeCode": 400
+}
+ 
+15:28:05.220 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:05.228 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:05.241 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer create with wrong data response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Phone.AlreadyUsed",
+    "Required",
+    "be.user.length"
+  ],
+  "validations": {
+    "phoneNumber": [
+      "Phone.AlreadyUsed",
+      "Required",
+      "be.user.length"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Phone.AlreadyUsed",
+  "typeCode": 400
+}
+ 
+15:28:05.247 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:05.253 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:05.505 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "titleType": 10,
+  "streetAddress": "280 Mornigside Dr, San Francisco",
+  "latitude": 37.7296159,
+  "additionalInfo": "string",
+  "isSelectedShippingAddress": false,
+  "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+  "title": "string",
+  "type": 1,
+  "longitude": -122.4936448
+}
+ 
+15:28:05.510 [pool-1-thread-2] INFO  com.intuit.karate - [print] customer create with wrong data response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"wrong\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 46."
+  ],
+  "validations": {
+    "phoneCountryId": [
+      "Error converting value \"wrong\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 46."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"wrong\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 46.",
+  "typeCode": 400
+}
+ 
+15:28:05.510 [pool-1-thread-3] INFO  com.intuit.karate - [print] customer create with wrong data response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 41."
+  ],
+  "validations": {
+    "phoneCountryId": [
+      "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 41."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 41.",
+  "typeCode": 400
+}
+ 
+15:28:05.515 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:05.515 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:05.523 [pool-1-thread-2] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:05.523 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:06.031 [pool-1-thread-5] INFO  com.intuit.karate - [print] Customer Address List Response -->  {
+  "page": {
+    "pageNumber": 0,
+    "pageSize": 0,
+    "hasNext": false,
+    "totalCount": 2
+  },
+  "items": [
+    {
+      "titleType": 10,
+      "streetAddress": "688 Geary St, San Francisco",
+      "latitude": 37.78660022692915,
+      "additionalInfo": null,
+      "isSelectedShippingAddress": false,
+      "id": "7c78f10a-71a6-4258-8a36-e09807053172",
+      "title": "Home",
+      "type": 1,
+      "longitude": -122.41467263549566
+    },
+    {
+      "titleType": 10,
+      "streetAddress": "335 Leavenworth St, San Francisco, CA 94102, United States",
+      "latitude": 37.7839295,
+      "additionalInfo": "string",
+      "isSelectedShippingAddress": false,
+      "id": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+      "title": "string",
+      "type": 1,
+      "longitude": -122.4174298
+    }
+  ]
+}
+ 
+15:28:06.056 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:06.070 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:06.163 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "c7287819-4328-474f-ad07-2882ef6a0958",
+  "nationalSecurityNumber": null,
+  "email": "hlkr4iv@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "mfnkwkz",
+  "employeeId": null,
+  "userId": "eb06b8bf-314b-4bb7-9055-fb70fa9c7624",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "mfnkwkz",
+  "phoneNumber": "3190084591",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:06.208 [pool-1-thread-2] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "c48f9f0b-0de6-49b2-9f66-c861d1e7ccab",
+  "nationalSecurityNumber": null,
+  "email": "zalrefq@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "uwuehtb",
+  "employeeId": null,
+  "userId": "1c146aae-774b-48c9-8616-34d2415ed802",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "uwuehtb",
+  "phoneNumber": "7879259203",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:06.368 [pool-1-thread-1] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "799fa667-7ca0-4bc7-89d5-9642a58c8bbf",
+  "nationalSecurityNumber": null,
+  "email": "iypowmd@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "emo1fz3",
+  "employeeId": null,
+  "userId": "fc6d2377-f951-4549-9b26-b8e46b9bbfb2",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "emo1fz3",
+  "phoneNumber": "2437224324",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:06.376 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 25 (20 remaining) classpath:features/userApi/address/customer_get_selected_address.feature
+15:28:06.439 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 25 (19 remaining) classpath:features/userApi/common/address_type_list.feature
+15:28:06.469 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 7 of 25 (18 remaining) classpath:features/userApi/common/file_type_list.feature
+15:28:06.510 [pool-1-thread-3] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "4b6ca9aa-1ee1-42ed-9eac-9bcea11806f4",
+  "nationalSecurityNumber": null,
+  "email": "gw6oie5@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "k647eqd",
+  "employeeId": null,
+  "userId": "3035e611-0be3-414e-9674-753c92ccde08",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "k647eqd",
+  "phoneNumber": "8259339311",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:06.836 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer edit without authorization response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+15:28:06.838 [pool-1-thread-2] INFO  com.intuit.karate - [print] customer edit fail scenario response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"\" to type 'System.Guid'. Path 'id', line 1, position 8."
+  ],
+  "validations": {
+    "id": [
+      "Error converting value \"\" to type 'System.Guid'. Path 'id', line 1, position 8."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"\" to type 'System.Guid'. Path 'id', line 1, position 8.",
+  "typeCode": 400
+}
+ 
+15:28:06.838 [pool-1-thread-5] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "26e54e26-1c97-4f7e-9fa5-8920d34d1480",
+  "nationalSecurityNumber": null,
+  "email": "3p58vyh@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "xayjybq",
+  "employeeId": null,
+  "userId": "d310d1b6-aa5c-49f3-95b6-ba03c0821744",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "xayjybq",
+  "phoneNumber": "5339105344",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:06.881 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 8 of 25 (17 remaining) classpath:features/userApi/common/rider_status_list.feature
+15:28:06.972 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:06.971 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:07.040 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:07.040 [pool-1-thread-2] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:07.083 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 9 of 25 (16 remaining) classpath:features/userApi/common/status_list.feature
+15:28:07.114 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 10 of 25 (15 remaining) classpath:features/userApi/common/title_type_list.feature
+15:28:07.144 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 11 of 25 (14 remaining) classpath:features/userApi/common/user_status_list.feature
+15:28:07.267 [pool-1-thread-1] INFO  com.intuit.karate - [print] customer edit response --> {
+  "lastName": "deneme1234",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "799fa667-7ca0-4bc7-89d5-9642a58c8bbf",
+  "nationalSecurityNumber": null,
+  "email": "ismv637@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "tes123 deneme1234",
+  "employeeId": null,
+  "userId": "fc6d2377-f951-4549-9b26-b8e46b9bbfb2",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "tes123",
+  "phoneNumber": "3749224605",
+  "roleIds": null,
+  "statusText": "Passive",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 0
+}
+ 
+15:28:07.284 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:07.317 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:07.323 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 12 of 25 (13 remaining) classpath:features/userApi/customer/customer_create.feature
+15:28:07.364 [pool-1-thread-3] INFO  com.intuit.karate - [print] customer edit fail scenario response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 92."
+  ],
+  "validations": {
+    "phoneCountryId": [
+      "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 92."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 92.",
+  "typeCode": 400
+}
+ 
+15:28:07.373 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:07.383 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:07.733 [pool-1-thread-5] INFO  com.intuit.karate - [print] customer edit fail scenario response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Email.NotValid",
+    "be.user.length"
+  ],
+  "validations": {
+    "email": [
+      "Email.NotValid",
+      "be.user.length"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Email.NotValid",
+  "typeCode": 400
+}
+ 
+15:28:07.741 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:07.756 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:07.796 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "5d243e4a-3a94-40aa-9ce1-584dbed14abe",
+  "nationalSecurityNumber": null,
+  "email": "pfrxg30@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "t9ii55t",
+  "employeeId": null,
+  "userId": "31c495c1-bd4c-483a-83ca-e112e3640604",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "t9ii55t",
+  "phoneNumber": "6327417989",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:07.939 [pool-1-thread-2] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "e75b5c31-87f6-4d8a-ab17-d069c8c779f8",
+  "nationalSecurityNumber": null,
+  "email": "n5qrtjq@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "yrc1rbn",
+  "employeeId": null,
+  "userId": "b4b6e950-a8e5-4b5a-a641-6fe609c2ee6f",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "yrc1rbn",
+  "phoneNumber": "2726932989",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:08.057 [pool-1-thread-1] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "bfb73f20-9703-4483-9f63-3c7b24d110d2",
+  "nationalSecurityNumber": null,
+  "email": "wxnr0nk@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "aijz5xt",
+  "employeeId": null,
+  "userId": "0ccaf658-7285-46d8-a46e-b0516b16a631",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "aijz5xt",
+  "phoneNumber": "0065565971",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:08.195 [pool-1-thread-3] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "e638f3d4-2169-47b3-8b73-1f7ab4bb980f",
+  "nationalSecurityNumber": null,
+  "email": "udioc9c@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "z6wjkhx",
+  "employeeId": null,
+  "userId": "c5bd1afb-60d2-4290-a8b5-4e3f50783a84",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "z6wjkhx",
+  "phoneNumber": "1783605832",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:08.336 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer edit fail scenario response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"wrong\" to type 'System.Guid'. Path 'id', line 1, position 13."
+  ],
+  "validations": {
+    "id": [
+      "Error converting value \"wrong\" to type 'System.Guid'. Path 'id', line 1, position 13."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"wrong\" to type 'System.Guid'. Path 'id', line 1, position 13.",
+  "typeCode": 400
+}
+ 
+15:28:08.342 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:08.358 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @customerInfo
+15:28:08.499 [pool-1-thread-5] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "c3aeda4c-2c90-45e3-b701-1217c71eff70",
+  "nationalSecurityNumber": null,
+  "email": "ihmshjk@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "udd47il",
+  "employeeId": null,
+  "userId": "2a055ba3-02bf-4206-862a-48aff02e3f2c",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "udd47il",
+  "phoneNumber": "7316198244",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:08.725 [pool-1-thread-3] INFO  com.intuit.karate - [print] customer edit fail scenario response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"wrong\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 97."
+  ],
+  "validations": {
+    "phoneCountryId": [
+      "Error converting value \"wrong\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 97."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"wrong\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 97.",
+  "typeCode": 400
+}
+ 
+15:28:08.725 [pool-1-thread-2] INFO  com.intuit.karate - [print] customer edit fail scenario response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Required",
+    "be.user.length",
+    "Same Phone Number cannot be used for more than one user."
+  ],
+  "validations": {
+    "phoneNumber": [
+      "Required",
+      "be.user.length"
+    ],
+    "phoneCountryId": [
+      "Same Phone Number cannot be used for more than one user."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Required",
+  "typeCode": 400
+}
+ 
+15:28:08.743 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:08.744 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:08.984 [pool-1-thread-1] INFO  com.intuit.karate - [print] customer edit fail scenario response --> {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Email.NotValid"
+  ],
+  "validations": {
+    "email": [
+      "Email.NotValid"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Email.NotValid",
+  "typeCode": 400
+}
+ 
+15:28:09.006 [pool-1-thread-5] INFO  com.intuit.karate - [print] customer find response -->  {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 1,
+  "riderId": null,
+  "password": "D328D517E09060D1AAD34F3FB12D82AB8E9A15D81032638698758ADD385A9454",
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": "c3aeda4c-2c90-45e3-b701-1217c71eff70",
+  "id": "2a055ba3-02bf-4206-862a-48aff02e3f2c",
+  "nationalSecurityNumber": null,
+  "email": "ihmshjk@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "udd47il",
+  "employeeId": null,
+  "userId": "2a055ba3-02bf-4206-862a-48aff02e3f2c",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "udd47il",
+  "phoneNumber": "7316198244",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:09.018 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:09.040 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:09.155 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer create response --> {
+  "lastName": "",
+  "deliveryAddresses": [
+  ],
+  "imagePath": null,
+  "roles": [
+  ],
+  "lastOrderDate": null,
+  "registerType": 0,
+  "phoneCountry": {
+    "name": "Russian Federation",
+    "id": "59c4edba-f347-45b3-a5c9-aed7ac852ff8"
+  },
+  "customerStatus": 0,
+  "riderId": null,
+  "password": null,
+  "passwordConfirm": null,
+  "imageFile": null,
+  "referralCode": null,
+  "imageUrl": null,
+  "customerId": null,
+  "id": "e1db0348-922a-49f8-ac0c-6e5833a538d5",
+  "nationalSecurityNumber": null,
+  "email": "i6q6fqr@grr.la",
+  "isBlockedCodeCampaign": false,
+  "fullName": "omb0zzi",
+  "employeeId": null,
+  "userId": "2f519f04-e240-4368-98e8-1f4218e0eb58",
+  "lastActiveAt": "0001-01-01T00:00:00.000Z",
+  "firstName": "omb0zzi",
+  "phoneNumber": "7012178926",
+  "roleIds": null,
+  "statusText": "Active",
+  "orders": null,
+  "lastActiveIp": null,
+  "residenceAddress": null,
+  "status": 1
+}
+ 
+15:28:09.335 [pool-1-thread-2] INFO  com.intuit.karate - [print] response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+15:28:09.335 [pool-1-thread-3] INFO  com.intuit.karate - [print] get notification settings response -->  {
+  "campaignEmailAllowed": false,
+  "deliveryEmailAllowed": false,
+  "campaignPushAllowed": true,
+  "campaignSmsAllowed": false,
+  "deliverySmsAllowed": true,
+  "deliveryPushAllowed": false
+}
+ 
+15:28:09.382 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:09.383 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:09.554 [pool-1-thread-1] INFO  com.intuit.karate - [print] push notification setting by user response --> {
+  "userExternalId": "729e2ca4-b5c2-4a38-88e8-f8f3914b9846",
+  "deliveryPushAllowed": false
+}
+ 
+15:28:09.588 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:09.662 [pool-1-thread-5] INFO  com.intuit.karate - [print] push notification setting by user with wrong user id response -->  
+15:28:09.822 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:09.838 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer find without authorization response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+15:28:09.880 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:10.232 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:10.299 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 13 of 25 (12 remaining) classpath:features/userApi/customer/customer_edit.feature
+15:28:10.347 [pool-1-thread-1] INFO  com.intuit.karate - [print] customer list response -->  {
+  "page": {
+    "pageNumber": 0,
+    "pageSize": 0,
+    "hasNext": false,
+    "totalCount": 2
+  },
+  "items": [
+    {
+      "lastName": "",
+      "imagePath": null,
+      "roles": [
+      ],
+      "orderCount": 0,
+      "fullName": "teasdst",
+      "title": null,
+      "firstName": "teasdst",
+      "createdAt": "2021-12-20T21:43:31.986Z",
+      "phoneNumber": "123123123112323",
+      "roleIds": null,
+      "imageUrl": null,
+      "statusText": "Blocked",
+      "statusName": "be.user.enums.userstatus.blocked",
+      "phoneCountryId": "a82b2d38-c995-4339-b436-43cabf8d3651",
+      "id": "8e470473-c1c6-45bb-b4a1-b57867090a0e",
+      "email": "test@testetasdet.com",
+      "status": 2,
+      "updatedAt": "2021-12-20T22:09:47.240Z"
+    },
+    {
+      "lastName": null,
+      "imagePath": null,
+      "roles": [
+      ],
+      "orderCount": 0,
+      "fullName": null,
+      "title": null,
+      "firstName": null,
+      "createdAt": "2021-10-28T10:37:47.070Z",
+      "phoneNumber": "55555",
+      "roleIds": null,
+      "imageUrl": null,
+      "statusText": "Blocked",
+      "statusName": "be.user.enums.userstatus.blocked",
+      "phoneCountryId": "81a2f978-226e-46e5-87b1-950e67b7f550",
+      "id": "55715d27-1aa5-49f0-8739-6f299af9b6fe",
+      "email": "cakmamail@cakma.com",
+      "status": 2,
+      "updatedAt": "2021-10-28T10:37:47.070Z"
+    }
+  ]
+}
+ 
+15:28:10.377 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:10.527 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:10.533 [pool-1-thread-3] INFO  com.intuit.karate - [print] response -->  "68b59900-5e5d-4c83-b4bf-9206344af7d8" 
+15:28:10.528 [pool-1-thread-5] INFO  com.intuit.karate - [print] customer list without authorization response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+15:28:10.608 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:10.622 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:10.663 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:10.692 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 14 of 25 (11 remaining) classpath:features/userApi/customer/customer_find.feature
+15:28:10.791 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 15 of 25 (10 remaining) classpath:features/userApi/customer/customer_get_notification_settings.feature
+15:28:10.826 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 16 of 25 (9 remaining) classpath:features/userApi/customer/customer_get_push_notification_setting_by_user.feature
+15:28:10.853 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 17 of 25 (8 remaining) classpath:features/userApi/customer/customer_get_userid_by_referralcode.feature
+15:28:10.860 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:10.868 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:10.891 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 18 of 25 (7 remaining) classpath:features/userApi/customer/customer_list.feature
+15:28:11.066 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:11.086 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:11.096 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:11.259 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "expiresIn": 3.1535999996098E7,
+  "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJidXNyYW96ZG1yLjgwMUBnbWFpbC5jb20iLCJuYW1lIjoiYnVzIGJ1cyAiLCJVc2VyVHlwZSI6IkN1c3RvbWVyIiwiTmFtZSI6ImJ1cyBidXMgIiwiRW1haWwiOiJidXNyYW96ZG1yLjgwMUBnbWFpbC5jb20iLCJVc2VySWQiOiI2OGI1OTkwMC01ZTVkLTRjODMtYjRiZi05MjA2MzQ0YWY3ZDgiLCJuYmYiOjE2NDIxNjMyOTEsImV4cCI6MTY3MzY5OTI5MSwiaWF0IjoxNjQyMTYzMjkxLCJpc3MiOiJodHRwczovL3BvcGNvcm52YW4uY29tLyIsImF1ZCI6Imh0dHBzOi8vcG9wY29ybnZhbi5jb20vIn0.ORKgzhyxtY_DbnOjX15TNeY9jyDdzDWFH47UcQWvptglkQBi-aYmSEn3LeyFYwV0JPz0WgsgRCRE_pZKZvDsnw",
+  "user": {
+    "imagePath": null,
+    "isBlockedCodeCampaign": false,
+    "languageId": null,
+    "fullName": "bus bus ",
+    "languageCode": null,
+    "userId": "68b59900-5e5d-4c83-b4bf-9206344af7d8",
+    "languageName": null,
+    "phoneAreaCode": "+1",
+    "phoneNumber": "5541394803",
+    "externalUserId": "729e2ca4-b5c2-4a38-88e8-f8f3914b9846",
+    "selectedAddress": null,
+    "referralCode": "F7DZRR6T9K",
+    "imageUrl": null,
+    "customerId": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+    "phoneCountryId": "81a2f978-226e-46e5-87b1-950e67b7f550",
+    "email": "busraozdmr.801@gmail.com"
+  },
+  "refreshToken": "155VRhn/6HfeL3+JMlYRRNvP3zcY6KU+lqN4t4isoVeEdz40qnkHldFFs+I="
+}
+ 
+15:28:11.273 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:11.281 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:11.303 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:11.310 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:11.312 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:11.319 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:11.323 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:11.328 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:11.374 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 19 of 25 (6 remaining) classpath:features/userApi/customer/customer_login.feature
+15:28:11.483 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:11.488 [pool-1-thread-2] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:11.522 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 20 of 25 (5 remaining) classpath:features/userApi/customer/customer_login_authentication.feature
+15:28:11.875 [pool-1-thread-1] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:12.044 [pool-1-thread-5] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:12.241 [pool-1-thread-3] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:12.499 [pool-1-thread-1] INFO  com.intuit.karate - [print] response login with phone-->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:12.513 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:12.520 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:12.569 [pool-1-thread-4] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:12.633 [pool-1-thread-5] INFO  com.intuit.karate - [print] response login with phone-->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 20."
+  ],
+  "validations": {
+    "phoneCountryId": [
+      "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 20."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 20.",
+  "typeCode": 400
+}
+ 
+15:28:12.642 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:12.829 [pool-1-thread-3] INFO  com.intuit.karate - [print] response login with phone-->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"123\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 23."
+  ],
+  "validations": {
+    "phoneCountryId": [
+      "Error converting value \"123\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 23."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"123\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 23.",
+  "typeCode": 400
+}
+ 
+15:28:12.841 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:12.951 [pool-1-thread-2] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:13.331 [pool-1-thread-1] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:13.331 [pool-1-thread-4] INFO  com.intuit.karate - [print] response login with phone-->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "This user does not exist. Please Sign up."
+  ],
+  "validations": {
+    "phoneNumber": [
+      "This user does not exist. Please Sign up."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "This user does not exist. Please Sign up.",
+  "typeCode": 400
+}
+ 
+15:28:13.348 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:13.360 [pool-1-thread-5] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:13.363 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:13.606 [pool-1-thread-3] INFO  com.intuit.karate - [print] response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "be.user.length"
+  ],
+  "validations": {
+    "password": [
+      "be.user.length"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "be.user.length",
+  "typeCode": 400
+}
+ 
+15:28:13.609 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:13.622 [pool-1-thread-2] INFO  com.intuit.karate - [print] response login with phone-->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "This user does not exist. Please Sign up."
+  ],
+  "validations": {
+    "phoneNumber": [
+      "This user does not exist. Please Sign up."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "This user does not exist. Please Sign up.",
+  "typeCode": 400
+}
+ 
+15:28:13.625 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:13.913 [pool-1-thread-1] INFO  com.intuit.karate - [print] response login with phone-->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "be.user.length",
+    "This user does not exist. Please Sign up."
+  ],
+  "validations": {
+    "phoneNumber": [
+      "be.user.length",
+      "This user does not exist. Please Sign up."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "be.user.length",
+  "typeCode": 400
+}
+ 
+15:28:13.917 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:13.967 [pool-1-thread-5] INFO  com.intuit.karate - [print] response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 68."
+  ],
+  "validations": {
+    "phoneCountryId": [
+      "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 68."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 68.",
+  "typeCode": 400
+}
+ 
+15:28:13.970 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:14.075 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 21 of 25 (4 remaining) classpath:features/userApi/customer/customer_login_with_phone.feature
+15:28:14.110 [pool-1-thread-4] INFO  com.intuit.karate - [print] response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "be.user.required",
+    "be.user.length"
+  ],
+  "validations": {
+    "password": [
+      "be.user.required",
+      "be.user.length"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "be.user.required",
+  "typeCode": 400
+}
+ 
+15:28:14.115 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:14.178 [pool-1-thread-3] INFO  com.intuit.karate - [print] response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Error converting value \"wrongdata\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 77."
+  ],
+  "validations": {
+    "phoneCountryId": [
+      "Error converting value \"wrongdata\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 77."
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "Error converting value \"wrongdata\" to type 'System.Guid'. Path 'phoneCountryId', line 1, position 77.",
+  "typeCode": 400
+}
+ 
+15:28:14.182 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:14.186 [pool-1-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:14.404 [pool-1-thread-2] INFO  com.intuit.karate - [print] response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "be.user.email.notvalid"
+  ],
+  "validations": {
+    "email": [
+      "be.user.email.notvalid"
+    ]
+  },
+  "type": "validation",
+  "title": null,
+  "message": "be.user.email.notvalid",
+  "typeCode": 400
+}
+ 
+15:28:14.409 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:14.413 [pool-1-thread-2] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:14.492 [pool-1-thread-5] INFO  com.intuit.karate - [print] update notification settings response -->  {
+  "campaignEmailAllowed": false,
+  "deliveryEmailAllowed": false,
+  "campaignPushAllowed": true,
+  "campaignSmsAllowed": false,
+  "deliverySmsAllowed": true,
+  "deliveryPushAllowed": false
+}
+ 
+15:28:14.495 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:14.499 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:14.702 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:14.708 [pool-1-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:14.800 [pool-1-thread-1] INFO  com.intuit.karate - [print] response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:14.807 [pool-1-thread-1] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:14.810 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:14.886 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 22 of 25 (3 remaining) classpath:features/userApi/customer/customer_register.feature
+15:28:14.923 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 23 of 25 (2 remaining) classpath:features/userApi/customer/customer_update_notification_settings.feature
+15:28:15.085 [pool-1-thread-3] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:15.275 [pool-1-thread-2] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:15.464 [pool-1-thread-5] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:15.536 [pool-1-thread-4] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:15.731 [pool-1-thread-1] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:15.917 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:15.928 [pool-1-thread-2] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:15.941 [pool-1-thread-2] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:16.018 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:16.021 [pool-1-thread-5] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:16.024 [pool-1-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - scenario called at line: 14 by tag: @loginWithPhoneValue
+15:28:16.098 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:16.104 [pool-1-thread-4] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:16.204 [pool-1-thread-3] INFO  com.intuit.karate - [print] customer validate otp response --> {
+  "expiresIn": 3.1535999994754E7,
+  "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJ3Z3I4cjhzQGdyci5sYSIsIm5hbWUiOiJhbWhzZ29yIiwiVXNlclR5cGUiOiJDdXN0b21lciIsIk5hbWUiOiJhbWhzZ29yIiwiRW1haWwiOiJ3Z3I4cjhzQGdyci5sYSIsIlVzZXJJZCI6IjQyMjVkY2ZhLTFmODMtNDQwMC1hNDdkLTMzZDIzZWQyMWI5ZSIsIm5iZiI6MTY0MjE2MzI5NiwiZXhwIjoxNjczNjk5Mjk2LCJpYXQiOjE2NDIxNjMyOTYsImlzcyI6Imh0dHBzOi8vcG9wY29ybnZhbi5jb20vIiwiYXVkIjoiaHR0cHM6Ly9wb3Bjb3JudmFuLmNvbS8ifQ.SOthDwGbZGkEHZbu0vlCg6Lmts17Z2BsbkTos4iJCa9X4QordzEyes66fYnpIQtxhnURNfpNIESt2P4QGr9nlw",
+  "user": {
+    "imagePath": null,
+    "isBlockedCodeCampaign": false,
+    "languageId": null,
+    "fullName": "amhsgor",
+    "languageCode": null,
+    "userId": "4225dcfa-1f83-4400-a47d-33d23ed21b9e",
+    "languageName": null,
+    "phoneAreaCode": "+1",
+    "phoneNumber": "4787863622",
+    "externalUserId": "583cc343-5d07-4e2a-a7ec-a0b0162b435b",
+    "selectedAddress": null,
+    "referralCode": "OAZDF9KCZM",
+    "imageUrl": null,
+    "customerId": "391c5cb9-8e9c-4ec8-8bd9-3493c186a690",
+    "phoneCountryId": "81a2f978-226e-46e5-87b1-950e67b7f550",
+    "email": "wgr8r8s@grr.la"
+  },
+  "refreshToken": "GDctoKwriDtQ8UUuXHpGcaNrTIQgKi1On/ucmvfT8M7mvV9Q0LQWwXJ4oK4="
+}
+ 
+15:28:16.208 [pool-1-thread-3] INFO  com.intuit.karate - Environment variable is : popcorn 
+15:28:16.362 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:16.720 [pool-1-thread-4] INFO  com.intuit.karate - [print] customer validate token response -->  {
+  "user": {
+    "imagePath": null,
+    "isBlockedCodeCampaign": false,
+    "languageId": null,
+    "fullName": "bus bus ",
+    "languageCode": null,
+    "userId": "68b59900-5e5d-4c83-b4bf-9206344af7d8",
+    "languageName": null,
+    "phoneAreaCode": "+1",
+    "phoneNumber": "5541394803",
+    "externalUserId": "729e2ca4-b5c2-4a38-88e8-f8f3914b9846",
+    "selectedAddress": null,
+    "referralCode": "F7DZRR6T9K",
+    "imageUrl": null,
+    "customerId": "bc7ec2e5-a2e7-453b-8c16-33e7f87645f6",
+    "phoneCountryId": "81a2f978-226e-46e5-87b1-950e67b7f550",
+    "email": "busraozdmr.801@gmail.com"
+  }
+}
+ 
+15:28:16.802 [pool-1-thread-5] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:16.814 [pool-1-thread-2] INFO  com.intuit.karate - [print] Customer Register response -->  {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "OtpVerification"
+  ],
+  "type": "otpverification",
+  "title": null,
+  "message": "OtpVerification",
+  "typeCode": 203
+}
+ 
+15:28:16.908 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "User Authorization Error"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "User Authorization Error",
+  "typeCode": 401
+}
+ 
+15:28:17.320 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "UnAuthorized"
+  ],
+  "type": "authorization",
+  "title": null,
+  "message": "UnAuthorized",
+  "typeCode": 401
+}
+ 
+15:28:17.378 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "visible": true,
+  "action": "default",
+  "messages": [
+    "Value cannot be null. (Parameter 'request')"
+  ],
+  "type": "error",
+  "title": null,
+  "message": "Value cannot be null. (Parameter 'request')",
+  "typeCode": 500
+}
+ 
+15:28:17.574 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 24 of 25 (1 remaining) classpath:features/userApi/customer/customer_validate_otp.feature
+15:28:17.608 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 25 of 25 (0 remaining) classpath:features/userApi/customer/customer_validate_token.feature
