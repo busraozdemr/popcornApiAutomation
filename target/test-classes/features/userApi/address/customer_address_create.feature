@@ -81,4 +81,4 @@ Feature: Customer Address Create
       | #(customerId) | string | 280 Mornigside Dr, San Francisco | a            | 37.7296159 | Could not convert string to double    |
       |               | string | 280 Mornigside Dr, San Francisco | -122.4936448 | 37.7296159 | Error converting value                |
       | #(customerId) | string | 280 Mornigside Dr, San Francisco |              | 37.7296159 | Error converting value {null} to type |
-      | #(customerId) | string |                                  | -122.4936448 | 37.7296159 | be.user.required                      |
+      | #(customerId) | string |                                  | -122.4936448 | 37.7296159 | Please fill the required fields.      |

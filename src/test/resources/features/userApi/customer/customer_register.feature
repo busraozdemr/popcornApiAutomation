@@ -54,10 +54,10 @@ Feature: Customer Register
     Then match response.message contains '<message>'
 
     Examples:
-      | email                    | password  | phoneNumber       | statusCode | phoneCountryId                       | message                |
-      | #(randomEmailValue)      | 123       | #(randomIntValue) | 400        | 81a2f978-226e-46e5-87b1-950e67b7f550 | be.user.length         |
-      | #(randomEmailValue)      |           | #(randomIntValue) | 400        | 81a2f978-226e-46e5-87b1-950e67b7f550 | be.user.required       |
-      | #(randomEmailValue)      | 123Asd123 | #(randomIntValue) | 400        |                                      | Error converting value |
-      | #(randomEmailValue)      | 123Asd123 | #(randomIntValue) | 400        | wrongdata                            | Error converting value |
-      | #(randomStringValue)     | 123Asd123 | #(randomIntValue) | 400        | 81a2f978-226e-46e5-87b1-950e67b7f550 | be.user.email.notvalid |
-      | busraozdmr.801@gmail.com | 123Asd123 | #(randomIntValue) | 203        | 81a2f978-226e-46e5-87b1-950e67b7f550 | OtpVerification        |
+      | email                    | password  | phoneNumber       | statusCode | phoneCountryId                       | message                          |
+      | #(randomEmailValue)      | 123       | #(randomIntValue) | 400        | 81a2f978-226e-46e5-87b1-950e67b7f550 | be.user.length                   |
+      | #(randomEmailValue)      |           | #(randomIntValue) | 400        | 81a2f978-226e-46e5-87b1-950e67b7f550 | Please fill the required fields. |
+      | #(randomEmailValue)      | 123Asd123 | #(randomIntValue) | 400        |                                      | Error converting value           |
+      | #(randomEmailValue)      | 123Asd123 | #(randomIntValue) | 400        | wrongdata                            | Error converting value           |
+      | #(randomStringValue)     | 123Asd123 | #(randomIntValue) | 400        | 81a2f978-226e-46e5-87b1-950e67b7f550 | This email is not valid.         |
+      | busraozdmr.801@gmail.com | 123Asd123 | #(randomIntValue) | 203        | 81a2f978-226e-46e5-87b1-950e67b7f550 | OtpVerification                  |
