@@ -29,7 +29,7 @@ Feature: Employee Validate Token
     Then match $.permissions[*].key != 'null'
     Then match $.permissions[*].actionName != 'null'
 
-        #type control in array
+      #type control in array
     Then match $.permissions[*].controllerName contains ["#string"]
     Then match $.permissions[*].name contains ["#string"]
     Then match $.permissions[*].id contains ["#string"]
