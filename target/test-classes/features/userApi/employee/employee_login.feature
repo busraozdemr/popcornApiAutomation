@@ -5,6 +5,7 @@ Feature: Employee Login
     * header Content-Type = 'application/json-patch+json'
     * header accept = '*/*'
 
+  @employeeLoginInfo
   Scenario: Employee Login - Success Scenario
     Given path '/Employee/Login'
     * def employeeLoginInfo =

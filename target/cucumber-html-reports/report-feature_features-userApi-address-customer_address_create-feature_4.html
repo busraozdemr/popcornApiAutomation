@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Popcorn Api Automation Result</td>
-            <td>17 Jan 2022, 17:44</td>
+            <td>18 Jan 2022, 09:28</td>
     </tr>
   </tbody>
 </table>
@@ -128,18 +128,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">features/userApi/address/customer_address_create.feature</td>
-                    <td      class="passed"    >143</td>
+                    <td      class="passed"    >152</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">143</td>
+          <td class="total">152</td>
 
           <td  class="passed"    >10</td>
           <td >0</td>
           <td class="total">10</td>
 
-          <td class="duration" data-value="10530411422">10s 530ms</td>
+          <td class="duration" data-value="13388182453">13s 388ms</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -190,7 +190,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">016ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -246,7 +246,8 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>17:43:36.786 Environment variable is : popcorn 
+        <pre>09:28:14.430 Environment variable is : popcorn 
+09:28:15.829 this thread waited 1390 milliseconds for callSingle lock: classpath:features/userApi/customer/customer_login_authentication.feature
 </pre>
       </div>
     </div>
@@ -263,7 +264,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header Content-Type = 'application/json-patch+json'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">005ms</span>
 
   </div>
 
@@ -305,7 +306,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def access_token = authInfo.response.accessToken</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -326,7 +327,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def customerId = authInfo.response.user.customerId</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">008ms</span>
 
   </div>
 
@@ -360,7 +361,7 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">832ms</span>
+  <span class="lead-duration duration">2s 009ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
@@ -401,7 +402,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">path '/Customer/Address/Create'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -422,7 +423,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">header Authorization = 'Bearer ' + access_token</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">004ms</span>
 
   </div>
 
@@ -443,7 +444,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def adressInfo =</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">004ms</span>
 
   </div>
 
@@ -504,7 +505,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
   
-  <span class="lead-duration duration">755ms</span>
+  <span class="lead-duration duration">1s 980ms</span>
 
   </div>
 
@@ -546,7 +547,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
   
-  <span class="lead-duration duration">037ms</span>
+  <span class="lead-duration duration">003ms</span>
 
   </div>
 
@@ -561,7 +562,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-7" class="collapse collapsable-details">
-        <pre>17:43:37.584 [print] {
+        <pre>09:28:17.961 [print] {
   &quot;titleType&quot;: 10,
   &quot;streetAddress&quot;: &quot;280 Mornigside Dr, San Francisco&quot;,
   &quot;latitude&quot;: 37.7296159,
@@ -589,7 +590,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match $.titleType == adressInfo.titleType</span>
   
-  <span class="lead-duration duration">010ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -610,7 +611,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match $.title == adressInfo.title</span>
   
-  <span class="lead-duration duration">005ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -631,7 +632,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match $.streetAddress == adressInfo.streetAddress</span>
   
-  <span class="lead-duration duration">002ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -652,7 +653,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match $.id == adressInfo.id</span>
   
-  <span class="lead-duration duration">007ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -673,7 +674,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match $.latitude == adressInfo.latitude</span>
   
-  <span class="lead-duration duration">005ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -715,7 +716,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">match response.streetAddress contains &quot;San Francisco&quot;</span>
   
-  <span class="lead-duration duration">003ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -757,7 +758,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match $.streetAddress == '#string'</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -894,7 +895,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">015ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
@@ -950,7 +951,8 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-10" class="collapse collapsable-details">
-        <pre>17:43:36.807 Environment variable is : popcorn 
+        <pre>09:28:14.429 Environment variable is : popcorn 
+09:28:15.829 this thread waited 1390 milliseconds for callSingle lock: classpath:features/userApi/customer/customer_login_authentication.feature
 </pre>
       </div>
     </div>
@@ -967,7 +969,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header Content-Type = 'application/json-patch+json'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">004ms</span>
 
   </div>
 
@@ -988,7 +990,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header accept = '*/*'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -1009,7 +1011,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def access_token = authInfo.response.accessToken</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -1030,7 +1032,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def customerId = authInfo.response.user.customerId</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">007ms</span>
 
   </div>
 
@@ -1062,7 +1064,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">742ms</span>
+  <span class="lead-duration duration">1s 092ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
@@ -1103,7 +1105,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">path '/Customer/Address/Create'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -1124,7 +1126,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">header Authorization = 'Bearer ' + access_token</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -1145,7 +1147,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def adressInfo =</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">013ms</span>
 
   </div>
 
@@ -1206,7 +1208,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
   
-  <span class="lead-duration duration">709ms</span>
+  <span class="lead-duration duration">1s 047ms</span>
 
   </div>
 
@@ -1248,7 +1250,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
   
-  <span class="lead-duration duration">021ms</span>
+  <span class="lead-duration duration">010ms</span>
 
   </div>
 
@@ -1263,7 +1265,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-14" class="collapse collapsable-details">
-        <pre>17:43:37.546 [print] {
+        <pre>09:28:17.037 [print] {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
@@ -1296,7 +1298,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Error converting value'</span>
   
-  <span class="lead-duration duration">011ms</span>
+  <span class="lead-duration duration">016ms</span>
 
   </div>
 
@@ -1328,7 +1330,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">1s 295ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
@@ -1384,7 +1386,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-17" class="collapse collapsable-details">
-        <pre>17:43:36.858 Environment variable is : popcorn 
+        <pre>09:28:15.829 &lt;&lt; lock released, cached callSingle: classpath:features/userApi/customer/customer_login_authentication.feature
 </pre>
       </div>
     </div>
@@ -1398,10 +1400,224 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">*</span>
+  <span class="keyword indention"></span>
+  <span class="name">features/userApi/customer/customer_login_authentication.feature</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">url 'https://testapi.popcornvan.cloud/user/'</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>09:28:14.430 Environment variable is : popcorn 
+09:28:14.440 &gt;&gt; lock acquired, begin callSingle: classpath:features/userApi/customer/customer_login_authentication.feature
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
   <span class="name">header Content-Type = 'application/json-patch+json'</span>
   
   <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header accept = '*/*'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">path '/Customer/Login'</span>
+  
+  <span class="lead-duration duration">010ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def user =</span>
+  
+  <span class="lead-duration duration">020ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-19">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-19" class="collapse collapsable-details">
+        <pre>{
+  &quot;email&quot;: &quot;busraozdmr.801@gmail.com&quot;,
+  &quot;password&quot;: &quot;123Asd123&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request user</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">1s 253ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header Content-Type = 'application/json-patch+json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -1443,7 +1659,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def access_token = authInfo.response.accessToken</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -1464,7 +1680,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def customerId = authInfo.response.user.customerId</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -1496,10 +1712,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">1s 056ms</span>
+  <span class="lead-duration duration">1s 322ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-20">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1512,13 +1728,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-18" class="collapse collapsable-details ">
+  <div id="element-20" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-19">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-21">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1530,14 +1746,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-19" class="inner-level collapse collapsable-details ">
+  <div id="steps-21" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">path '/Customer/Address/Create'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -1558,7 +1774,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">header Authorization = 'Bearer ' + access_token</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">014ms</span>
 
   </div>
 
@@ -1579,7 +1795,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def adressInfo =</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">011ms</span>
 
   </div>
 
@@ -1590,10 +1806,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-20">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
           <a>Doc string</a>
       </div>
-      <div id="msg-20" class="collapse collapsable-details">
+      <div id="msg-22" class="collapse collapsable-details">
         <pre>{
   &quot;id&quot;: &quot;#(customerId)&quot;,
   &quot;title&quot;: &quot;string&quot;,
@@ -1640,7 +1856,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
   
-  <span class="lead-duration duration">849ms</span>
+  <span class="lead-duration duration">1s 285ms</span>
 
   </div>
 
@@ -1681,1482 +1897,6 @@ $(document).ready(function() {
 <div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
-  
-  <span class="lead-duration duration">164ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-21" class="collapse collapsable-details">
-        <pre>17:43:37.874 [print] {
-  &quot;visible&quot;: true,
-  &quot;action&quot;: &quot;default&quot;,
-  &quot;messages&quot;: [
-    &quot;Outside of service area!&quot;
-  ],
-  &quot;validations&quot;: {
-    &quot;longitude&quot;: [
-      &quot;Outside of service area!&quot;
-    ]
-  },
-  &quot;type&quot;: &quot;validation&quot;,
-  &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Outside of service area!&quot;,
-  &quot;typeCode&quot;: 400
-}
- 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">match response.message contains 'Outside of service area!'</span>
-  
-  <span class="lead-duration duration">040ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">000ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-22">
-    
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-22" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-23" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">url userApiUrl</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-24">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-24" class="collapse collapsable-details">
-        <pre>17:43:37.149 Environment variable is : popcorn 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header Content-Type = 'application/json-patch+json'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header accept = '*/*'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def access_token = authInfo.response.accessToken</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def customerId = authInfo.response.user.customerId</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">997ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
-    
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Customer Address Create - Fail Scenarios</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-25" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-26">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-26" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">path '/Customer/Address/Create'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">header Authorization = 'Bearer ' + access_token</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def adressInfo =</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-27">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-27" class="collapse collapsable-details">
-        <pre>{
-  &quot;id&quot;: &quot;#(customerId)&quot;,
-  &quot;title&quot;: &quot;string&quot;,
-  &quot;additionalInfo&quot;: &quot;string&quot;,
-  &quot;streetAddress&quot;: &quot;280 Mornigside Dr, San Francisco&quot;,
-  &quot;type&quot;: 0,
-  &quot;titleType&quot;: 10,
-  &quot;longitude&quot;: -122.4936448,
-  &quot;latitude&quot;:0
-}</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request adressInfo</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-  
-  <span class="lead-duration duration">984ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 400</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">print response</span>
-  
-  <span class="lead-duration duration">008ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-28">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-28" class="collapse collapsable-details">
-        <pre>17:43:38.150 [print] {
-  &quot;visible&quot;: true,
-  &quot;action&quot;: &quot;default&quot;,
-  &quot;messages&quot;: [
-    &quot;Outside of service area!&quot;
-  ],
-  &quot;validations&quot;: {
-    &quot;longitude&quot;: [
-      &quot;Outside of service area!&quot;
-    ]
-  },
-  &quot;type&quot;: &quot;validation&quot;,
-  &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Outside of service area!&quot;,
-  &quot;typeCode&quot;: 400
-}
- 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">match response.message contains 'Outside of service area!'</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">001ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-29">
-    
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-29" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-30">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-30" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">url userApiUrl</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-31">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-31" class="collapse collapsable-details">
-        <pre>17:43:37.289 Environment variable is : popcorn 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header Content-Type = 'application/json-patch+json'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header accept = '*/*'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def access_token = authInfo.response.accessToken</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def customerId = authInfo.response.user.customerId</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">1s 901ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-32">
-    
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Customer Address Create - Fail Scenarios</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-32" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-33">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-33" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">path '/Customer/Address/Create'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">header Authorization = 'Bearer ' + access_token</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def adressInfo =</span>
-  
-  <span class="lead-duration duration">002ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-34">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-34" class="collapse collapsable-details">
-        <pre>{
-  &quot;id&quot;: &quot;#(customerId)&quot;,
-  &quot;title&quot;: &quot;string&quot;,
-  &quot;additionalInfo&quot;: &quot;string&quot;,
-  &quot;streetAddress&quot;: &quot;abc&quot;,
-  &quot;type&quot;: 0,
-  &quot;titleType&quot;: 10,
-  &quot;longitude&quot;: -122.4936448,
-  &quot;latitude&quot;:37.7296159
-}</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request adressInfo</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-  
-  <span class="lead-duration duration">1s 884ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 400</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">print response</span>
-  
-  <span class="lead-duration duration">010ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-35">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-35" class="collapse collapsable-details">
-        <pre>17:43:39.199 [print] {
-  &quot;visible&quot;: true,
-  &quot;action&quot;: &quot;default&quot;,
-  &quot;messages&quot;: [
-    &quot;be.user.length&quot;
-  ],
-  &quot;validations&quot;: {
-    &quot;streetAddress&quot;: [
-      &quot;be.user.length&quot;
-    ]
-  },
-  &quot;type&quot;: &quot;validation&quot;,
-  &quot;title&quot;: null,
-  &quot;message&quot;: &quot;be.user.length&quot;,
-  &quot;typeCode&quot;: 400
-}
- 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">match response.message contains 'be.user.length'</span>
-  
-  <span class="lead-duration duration">003ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">002ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-36">
-    
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-36" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-37">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-37" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">url userApiUrl</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-38">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-38" class="collapse collapsable-details">
-        <pre>17:43:37.602 Environment variable is : popcorn 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header Content-Type = 'application/json-patch+json'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header accept = '*/*'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def access_token = authInfo.response.accessToken</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def customerId = authInfo.response.user.customerId</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">1s 584ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-39">
-    
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Customer Address Create - Fail Scenarios</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-39" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-40">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-40" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">path '/Customer/Address/Create'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">header Authorization = 'Bearer ' + access_token</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def adressInfo =</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-41">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-41" class="collapse collapsable-details">
-        <pre>{
-  &quot;id&quot;: &quot;#(customerId)&quot;,
-  &quot;title&quot;: &quot;string&quot;,
-  &quot;additionalInfo&quot;: &quot;string&quot;,
-  &quot;streetAddress&quot;: &quot;280 Mornigside Dr, San Francisco&quot;,
-  &quot;type&quot;: 0,
-  &quot;titleType&quot;: 10,
-  &quot;longitude&quot;: -122.4936448,
-  &quot;latitude&quot;:a
-}</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request adressInfo</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-  
-  <span class="lead-duration duration">1s 567ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 400</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">print response</span>
-  
-  <span class="lead-duration duration">010ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-42">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-42" class="collapse collapsable-details">
-        <pre>17:43:39.199 [print] {
-  &quot;visible&quot;: true,
-  &quot;action&quot;: &quot;default&quot;,
-  &quot;messages&quot;: [
-    &quot;Could not convert string to double: a. Path 'latitude', line 1, position 202.&quot;
-  ],
-  &quot;validations&quot;: {
-    &quot;latitude&quot;: [
-      &quot;Could not convert string to double: a. Path 'latitude', line 1, position 202.&quot;
-    ]
-  },
-  &quot;type&quot;: &quot;validation&quot;,
-  &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Could not convert string to double: a. Path 'latitude', line 1, position 202.&quot;,
-  &quot;typeCode&quot;: 400
-}
- 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">match response.message contains 'Could not convert string to double'</span>
-  
-  <span class="lead-duration duration">003ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">045ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-43">
-    
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-43" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-44">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-44" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">url userApiUrl</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-45">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-45" class="collapse collapsable-details">
-        <pre>17:43:37.714 Environment variable is : popcorn 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header Content-Type = 'application/json-patch+json'</span>
-  
-  <span class="lead-duration duration">004ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header accept = '*/*'</span>
   
   <span class="lead-duration duration">005ms</span>
 
@@ -3167,286 +1907,26 @@ $(document).ready(function() {
 
         
         
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def access_token = authInfo.response.accessToken</span>
-  
-  <span class="lead-duration duration">008ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def customerId = authInfo.response.user.customerId</span>
-  
-  <span class="lead-duration duration">024ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">788ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-46">
-    
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Customer Address Create - Fail Scenarios</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-46" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-47">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-47" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">path '/Customer/Address/Create'</span>
-  
-  <span class="lead-duration duration">006ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">header Authorization = 'Bearer ' + access_token</span>
-  
-  <span class="lead-duration duration">004ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def adressInfo =</span>
-  
-  <span class="lead-duration duration">003ms</span>
-
-  </div>
-
-        
-
-
-        
-        
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-48">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-23">
           <a>Doc string</a>
       </div>
-      <div id="msg-48" class="collapse collapsable-details">
-        <pre>{
-  &quot;id&quot;: &quot;#(customerId)&quot;,
-  &quot;title&quot;: &quot;string&quot;,
-  &quot;additionalInfo&quot;: &quot;string&quot;,
-  &quot;streetAddress&quot;: &quot;280 Mornigside Dr, San Francisco&quot;,
-  &quot;type&quot;: 0,
-  &quot;titleType&quot;: 10,
-  &quot;longitude&quot;: a,
-  &quot;latitude&quot;:37.7296159
-}</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request adressInfo</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-  
-  <span class="lead-duration duration">757ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 400</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">print response</span>
-  
-  <span class="lead-duration duration">012ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-49">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-49" class="collapse collapsable-details">
-        <pre>17:43:38.757 [print] {
+      <div id="msg-23" class="collapse collapsable-details">
+        <pre>09:28:17.270 [print] {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
-    &quot;Could not convert string to double: a. Path 'longitude', line 1, position 178.&quot;
+    &quot;Outside of service area!&quot;
   ],
   &quot;validations&quot;: {
     &quot;longitude&quot;: [
-      &quot;Could not convert string to double: a. Path 'longitude', line 1, position 178.&quot;
+      &quot;Outside of service area!&quot;
     ]
   },
   &quot;type&quot;: &quot;validation&quot;,
   &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Could not convert string to double: a. Path 'longitude', line 1, position 178.&quot;,
+  &quot;message&quot;: &quot;Outside of service area!&quot;,
   &quot;typeCode&quot;: 400
 }
  
@@ -3464,7 +1944,7 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">match response.message contains 'Could not convert string to double'</span>
+  <span class="name">match response.message contains 'Outside of service area!'</span>
   
   <span class="lead-duration duration">002ms</span>
 
@@ -3498,10 +1978,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">025ms</span>
+  <span class="lead-duration duration">014ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-50">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-24">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -3514,13 +1994,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-50" class="collapse collapsable-details ">
+  <div id="element-24" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-51">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-25">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3532,7 +2012,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-51" class="inner-level collapse collapsable-details ">
+  <div id="steps-25" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -3550,11 +2030,12 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-52">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-26">
           <a>Doc string</a>
       </div>
-      <div id="msg-52" class="collapse collapsable-details">
-        <pre>17:43:38.043 Environment variable is : popcorn 
+      <div id="msg-26" class="collapse collapsable-details">
+        <pre>09:28:14.430 Environment variable is : popcorn 
+09:28:15.830 this thread waited 1391 milliseconds for callSingle lock: classpath:features/userApi/customer/customer_login_authentication.feature
 </pre>
       </div>
     </div>
@@ -3571,7 +2052,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header Content-Type = 'application/json-patch+json'</span>
   
-  <span class="lead-duration duration">006ms</span>
+  <span class="lead-duration duration">004ms</span>
 
   </div>
 
@@ -3592,7 +2073,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header accept = '*/*'</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -3613,7 +2094,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def access_token = authInfo.response.accessToken</span>
   
-  <span class="lead-duration duration">009ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -3666,10 +2147,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">897ms</span>
+  <span class="lead-duration duration">1s 140ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-53">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-27">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -3682,13 +2163,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-53" class="collapse collapsable-details ">
+  <div id="element-27" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-54">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-28">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3700,14 +2181,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-54" class="inner-level collapse collapsable-details ">
+  <div id="steps-28" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">path '/Customer/Address/Create'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -3728,7 +2209,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">header Authorization = 'Bearer ' + access_token</span>
   
-  <span class="lead-duration duration">004ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -3760,10 +2241,1747 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-55">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-29">
           <a>Doc string</a>
       </div>
-      <div id="msg-55" class="collapse collapsable-details">
+      <div id="msg-29" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: &quot;#(customerId)&quot;,
+  &quot;title&quot;: &quot;string&quot;,
+  &quot;additionalInfo&quot;: &quot;string&quot;,
+  &quot;streetAddress&quot;: &quot;280 Mornigside Dr, San Francisco&quot;,
+  &quot;type&quot;: 0,
+  &quot;titleType&quot;: 10,
+  &quot;longitude&quot;: -122.4936448,
+  &quot;latitude&quot;:0
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request adressInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+  
+  <span class="lead-duration duration">1s 128ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-30" class="collapse collapsable-details">
+        <pre>09:28:17.108 [print] {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Outside of service area!&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;longitude&quot;: [
+      &quot;Outside of service area!&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Outside of service area!&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Outside of service area!'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">015ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-31">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-31" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-32">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-32" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url userApiUrl</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-33">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-33" class="collapse collapsable-details">
+        <pre>09:28:14.429 Environment variable is : popcorn 
+09:28:15.830 this thread waited 1391 milliseconds for callSingle lock: classpath:features/userApi/customer/customer_login_authentication.feature
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header Content-Type = 'application/json-patch+json'</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header accept = '*/*'</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def access_token = authInfo.response.accessToken</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerId = authInfo.response.user.customerId</span>
+  
+  <span class="lead-duration duration">007ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1s 989ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-34">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Address Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-34" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-35" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Address/Create'</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + access_token</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def adressInfo =</span>
+  
+  <span class="lead-duration duration">011ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-36">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-36" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: &quot;#(customerId)&quot;,
+  &quot;title&quot;: &quot;string&quot;,
+  &quot;additionalInfo&quot;: &quot;string&quot;,
+  &quot;streetAddress&quot;: &quot;abc&quot;,
+  &quot;type&quot;: 0,
+  &quot;titleType&quot;: 10,
+  &quot;longitude&quot;: -122.4936448,
+  &quot;latitude&quot;:37.7296159
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request adressInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+  
+  <span class="lead-duration duration">1s 969ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-37">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-37" class="collapse collapsable-details">
+        <pre>09:28:17.946 [print] {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;be.user.length&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;streetAddress&quot;: [
+      &quot;be.user.length&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;be.user.length&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'be.user.length'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">004ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-38">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-38" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-39">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-39" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url userApiUrl</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-40">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-40" class="collapse collapsable-details">
+        <pre>09:28:17.091 Environment variable is : popcorn 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header Content-Type = 'application/json-patch+json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header accept = '*/*'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def access_token = authInfo.response.accessToken</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerId = authInfo.response.user.customerId</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">621ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-41">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Address Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-41" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-42">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-42" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Address/Create'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + access_token</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def adressInfo =</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-43">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-43" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: &quot;#(customerId)&quot;,
+  &quot;title&quot;: &quot;string&quot;,
+  &quot;additionalInfo&quot;: &quot;string&quot;,
+  &quot;streetAddress&quot;: &quot;280 Mornigside Dr, San Francisco&quot;,
+  &quot;type&quot;: 0,
+  &quot;titleType&quot;: 10,
+  &quot;longitude&quot;: -122.4936448,
+  &quot;latitude&quot;:a
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request adressInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+  
+  <span class="lead-duration duration">610ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-44">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-44" class="collapse collapsable-details">
+        <pre>09:28:17.756 [print] {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Could not convert string to double: a. Path 'latitude', line 1, position 202.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;latitude&quot;: [
+      &quot;Could not convert string to double: a. Path 'latitude', line 1, position 202.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Could not convert string to double: a. Path 'latitude', line 1, position 202.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Could not convert string to double'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">000ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-45">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-45" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-46">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-46" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url userApiUrl</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-47">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-47" class="collapse collapsable-details">
+        <pre>09:28:17.137 Environment variable is : popcorn 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header Content-Type = 'application/json-patch+json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header accept = '*/*'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def access_token = authInfo.response.accessToken</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerId = authInfo.response.user.customerId</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1s 187ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-48">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Address Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-48" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-49">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-49" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Address/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + access_token</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def adressInfo =</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-50">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-50" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: &quot;#(customerId)&quot;,
+  &quot;title&quot;: &quot;string&quot;,
+  &quot;additionalInfo&quot;: &quot;string&quot;,
+  &quot;streetAddress&quot;: &quot;280 Mornigside Dr, San Francisco&quot;,
+  &quot;type&quot;: 0,
+  &quot;titleType&quot;: 10,
+  &quot;longitude&quot;: a,
+  &quot;latitude&quot;:37.7296159
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request adressInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+  
+  <span class="lead-duration duration">1s 182ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-51">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-51" class="collapse collapsable-details">
+        <pre>09:28:18.341 [print] {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Could not convert string to double: a. Path 'longitude', line 1, position 178.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;longitude&quot;: [
+      &quot;Could not convert string to double: a. Path 'longitude', line 1, position 178.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Could not convert string to double: a. Path 'longitude', line 1, position 178.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Could not convert string to double'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">002ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-52">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-52" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-53">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-53" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url userApiUrl</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-54">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-54" class="collapse collapsable-details">
+        <pre>09:28:17.292 Environment variable is : popcorn 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header Content-Type = 'application/json-patch+json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header accept = '*/*'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def access_token = authInfo.response.accessToken</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerId = authInfo.response.user.customerId</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1s 126ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-55">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Address Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-55" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-56">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-56" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Address/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + access_token</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def adressInfo =</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-57">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-57" class="collapse collapsable-details">
         <pre>{
   &quot;id&quot;: &quot;&quot;,
   &quot;title&quot;: &quot;string&quot;,
@@ -3810,7 +4028,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
   
-  <span class="lead-duration duration">875ms</span>
+  <span class="lead-duration duration">1s 123ms</span>
 
   </div>
 
@@ -3852,7 +4070,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
   
-  <span class="lead-duration duration">005ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -3863,11 +4081,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-56">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-58">
           <a>Doc string</a>
       </div>
-      <div id="msg-56" class="collapse collapsable-details">
-        <pre>17:43:38.984 [print] {
+      <div id="msg-58" class="collapse collapsable-details">
+        <pre>09:28:18.434 [print] {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
@@ -3900,7 +4118,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Error converting value'</span>
   
-  <span class="lead-duration duration">006ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -3932,10 +4150,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">011ms</span>
+  <span class="lead-duration duration">002ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-57">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-59">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -3948,13 +4166,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-57" class="collapse collapsable-details ">
+  <div id="element-59" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-58">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-60">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3966,7 +4184,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-58" class="inner-level collapse collapsable-details ">
+  <div id="steps-60" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -3984,11 +4202,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-59">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-61">
           <a>Doc string</a>
       </div>
-      <div id="msg-59" class="collapse collapsable-details">
-        <pre>17:43:38.169 Environment variable is : popcorn 
+      <div id="msg-61" class="collapse collapsable-details">
+        <pre>09:28:17.768 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -4005,7 +4223,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header Content-Type = 'application/json-patch+json'</span>
   
-  <span class="lead-duration duration">002ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -4047,7 +4265,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def access_token = authInfo.response.accessToken</span>
   
-  <span class="lead-duration duration">003ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -4068,7 +4286,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def customerId = authInfo.response.user.customerId</span>
   
-  <span class="lead-duration duration">004ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -4100,10 +4318,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">792ms</span>
+  <span class="lead-duration duration">596ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-60">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-62">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -4116,13 +4334,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-60" class="collapse collapsable-details ">
+  <div id="element-62" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-61">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-63">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -4134,14 +4352,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-61" class="inner-level collapse collapsable-details ">
+  <div id="steps-63" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">path '/Customer/Address/Create'</span>
   
-  <span class="lead-duration duration">004ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -4162,7 +4380,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">header Authorization = 'Bearer ' + access_token</span>
   
-  <span class="lead-duration duration">008ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -4183,7 +4401,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def adressInfo =</span>
   
-  <span class="lead-duration duration">004ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -4194,10 +4412,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-62">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-64">
           <a>Doc string</a>
       </div>
-      <div id="msg-62" class="collapse collapsable-details">
+      <div id="msg-64" class="collapse collapsable-details">
         <pre>{
   &quot;id&quot;: &quot;#(customerId)&quot;,
   &quot;title&quot;: &quot;string&quot;,
@@ -4244,7 +4462,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
   
-  <span class="lead-duration duration">747ms</span>
+  <span class="lead-duration duration">587ms</span>
 
   </div>
 
@@ -4286,7 +4504,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
   
-  <span class="lead-duration duration">020ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -4297,11 +4515,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-63">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-65">
           <a>Doc string</a>
       </div>
-      <div id="msg-63" class="collapse collapsable-details">
-        <pre>17:43:38.984 [print] {
+      <div id="msg-65" class="collapse collapsable-details">
+        <pre>09:28:18.380 [print] {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
@@ -4334,7 +4552,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Error converting value {null} to type'</span>
   
-  <span class="lead-duration duration">006ms</span>
+  <span class="lead-duration duration">003ms</span>
 
   </div>
 
@@ -4366,10 +4584,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">002ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-64">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-66">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -4382,13 +4600,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-64" class="collapse collapsable-details ">
+  <div id="element-66" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-65">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-67">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -4400,7 +4618,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-65" class="inner-level collapse collapsable-details ">
+  <div id="steps-67" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -4418,11 +4636,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-66">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-68">
           <a>Doc string</a>
       </div>
-      <div id="msg-66" class="collapse collapsable-details">
-        <pre>17:43:38.789 Environment variable is : popcorn 
+      <div id="msg-68" class="collapse collapsable-details">
+        <pre>09:28:17.961 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -4481,7 +4699,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def access_token = authInfo.response.accessToken</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -4502,7 +4720,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def customerId = authInfo.response.user.customerId</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -4534,10 +4752,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">844ms</span>
+  <span class="lead-duration duration">931ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-67">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-69">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -4550,13 +4768,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-67" class="collapse collapsable-details ">
+  <div id="element-69" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-68">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-70">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -4568,7 +4786,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-68" class="inner-level collapse collapsable-details ">
+  <div id="steps-70" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -4628,10 +4846,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-69">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-71">
           <a>Doc string</a>
       </div>
-      <div id="msg-69" class="collapse collapsable-details">
+      <div id="msg-71" class="collapse collapsable-details">
         <pre>{
   &quot;id&quot;: &quot;#(customerId)&quot;,
   &quot;title&quot;: &quot;string&quot;,
@@ -4678,7 +4896,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
   
-  <span class="lead-duration duration">833ms</span>
+  <span class="lead-duration duration">913ms</span>
 
   </div>
 
@@ -4720,7 +4938,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
   
-  <span class="lead-duration duration">006ms</span>
+  <span class="lead-duration duration">015ms</span>
 
   </div>
 
@@ -4731,11 +4949,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-70">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-72">
           <a>Doc string</a>
       </div>
-      <div id="msg-70" class="collapse collapsable-details">
-        <pre>17:43:39.647 [print] {
+      <div id="msg-72" class="collapse collapsable-details">
+        <pre>09:28:18.917 [print] {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
@@ -4770,7 +4988,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Please fill the required fields.'</span>
   
-  <span class="lead-duration duration">002ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
