@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Popcorn Api Automation Result</td>
-            <td>18 Jan 2022, 09:28</td>
+            <td>19 Jan 2022, 15:26</td>
     </tr>
   </tbody>
 </table>
@@ -128,19 +128,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">features/userApi/customer/customer_create.feature</td>
-                    <td      class="passed"    >146</td>
+                    <td      class="passed"    >148</td>
+          <td      class="failed"    >6</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td >0</td>
-          <td class="total">146</td>
+          <td class="total">154</td>
 
-          <td  class="passed"    >8</td>
-          <td >0</td>
+          <td  class="passed"    >2</td>
+          <td  class="failed"    >6</td>
           <td class="total">8</td>
 
-          <td class="duration" data-value="6075867708">6s 075ms</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="7581967877">7s 581ms</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -172,7 +172,7 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name">features/userApi/customer/customer_create.feature</span>
   
@@ -190,7 +190,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">045ms</span>
+  <span class="lead-duration duration">287ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -246,7 +246,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>09:28:23.576 Environment variable is : popcorn 
+        <pre>15:25:39.713 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -305,7 +305,28 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomString = Java.type('utils.RandomValue')</span>
   
-  <span class="lead-duration duration">011ms</span>
+  <span class="lead-duration duration">015ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue = Java.type('utils.Extension')</span>
+  
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -326,7 +347,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomEmailValue = new randomString().createRandomString(7,&quot;email&quot;);</span>
   
-  <span class="lead-duration duration">025ms</span>
+  <span class="lead-duration duration">040ms</span>
 
   </div>
 
@@ -345,9 +366,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">*</span>
-  <span class="name">def randomStringValue = new randomString().createRandomString(7,&quot;string&quot;);</span>
+  <span class="name">def randomStringValue1 = new randomStringValue().randomFirstName();</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">203ms</span>
 
   </div>
 
@@ -368,7 +389,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomIntValue = new randomString().createInt(10);</span>
   
-  <span class="lead-duration duration">007ms</span>
+  <span class="lead-duration duration">025ms</span>
 
   </div>
 
@@ -402,7 +423,7 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">676ms</span>
+  <span class="lead-duration duration">1s 149ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
@@ -443,7 +464,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">path '/Customer/Create'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -485,7 +506,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def customerCreateInfo =</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">006ms</span>
 
   </div>
 
@@ -501,7 +522,7 @@ $(document).ready(function() {
       </div>
       <div id="msg-6" class="collapse collapsable-details">
         <pre>{
-   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
+   &quot;fullName&quot;: &quot;#(randomStringValue1)&quot;,
    &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
    &quot;email&quot;: &quot;#(randomEmailValue)&quot;,
    &quot;phoneNumber&quot;: &quot;#(randomIntValue)&quot;
@@ -542,7 +563,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
   
-  <span class="lead-duration duration">664ms</span>
+  <span class="lead-duration duration">1s 129ms</span>
 
   </div>
 
@@ -584,7 +605,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print 'customer create response --&gt;',response</span>
   
-  <span class="lead-duration duration">004ms</span>
+  <span class="lead-duration duration">005ms</span>
 
   </div>
 
@@ -599,8 +620,8 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-7" class="collapse collapsable-details">
-        <pre>09:28:24.294 [print] customer create response --&gt; {
-  &quot;lastName&quot;: &quot;&quot;,
+        <pre>15:25:41.148 [print] customer create response --&gt; {
+  &quot;lastName&quot;: &quot;Kemmer V&quot;,
   &quot;deliveryAddresses&quot;: [
   ],
   &quot;imagePath&quot;: null,
@@ -620,16 +641,16 @@ $(document).ready(function() {
   &quot;referralCode&quot;: null,
   &quot;imageUrl&quot;: null,
   &quot;customerId&quot;: null,
-  &quot;id&quot;: &quot;f8b32ef5-4de8-49cb-83f5-7dcfd73dfb5f&quot;,
+  &quot;id&quot;: &quot;aa1bbcdc-0138-4557-8ab0-c026281463d1&quot;,
   &quot;nationalSecurityNumber&quot;: null,
-  &quot;email&quot;: &quot;docwpv5@grr.la&quot;,
+  &quot;email&quot;: &quot;5n61muo@grr.la&quot;,
   &quot;isBlockedCodeCampaign&quot;: false,
-  &quot;fullName&quot;: &quot;usouddk&quot;,
+  &quot;fullName&quot;: &quot;Ludivina Kemmer V&quot;,
   &quot;employeeId&quot;: null,
-  &quot;userId&quot;: &quot;ea311ac8-8d1e-497b-8a45-ce736c073f7e&quot;,
+  &quot;userId&quot;: &quot;0dc016e6-8e9b-4f20-933a-8e45cb1576c9&quot;,
   &quot;lastActiveAt&quot;: &quot;0001-01-01T00:00:00.000Z&quot;,
-  &quot;firstName&quot;: &quot;usouddk&quot;,
-  &quot;phoneNumber&quot;: &quot;4366551305&quot;,
+  &quot;firstName&quot;: &quot;Ludivina&quot;,
+  &quot;phoneNumber&quot;: &quot;6732736259&quot;,
   &quot;roleIds&quot;: null,
   &quot;statusText&quot;: &quot;Active&quot;,
   &quot;orders&quot;: null,
@@ -654,7 +675,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match $.status == 1</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -675,7 +696,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">match $.statusText == &quot;Active&quot;</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -1211,7 +1232,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">004ms</span>
+  <span class="lead-duration duration">110ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
@@ -1267,7 +1288,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-10" class="collapse collapsable-details">
-        <pre>09:28:23.794 Environment variable is : popcorn 
+        <pre>15:25:39.892 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -1284,7 +1305,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header Content-Type = 'application/json-patch+json'</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -1305,7 +1326,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header accept = '*/*'</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -1326,7 +1347,28 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomString = Java.type('utils.RandomValue')</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue = Java.type('utils.Extension')</span>
+  
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -1366,9 +1408,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">*</span>
-  <span class="name">def randomStringValue = new randomString().createRandomString(7,&quot;string&quot;);</span>
+  <span class="name">def randomStringValue1 = new randomStringValue().randomFirstName();</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">107ms</span>
 
   </div>
 
@@ -1389,7 +1431,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomIntValue = new randomString().createInt(10);</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -1421,7 +1463,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">605ms</span>
+  <span class="lead-duration duration">980ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
@@ -1462,7 +1504,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">path '/Customer/Create'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -1483,7 +1525,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def customerCreateInfo =</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">006ms</span>
 
   </div>
 
@@ -1540,7 +1582,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
   
-  <span class="lead-duration duration">587ms</span>
+  <span class="lead-duration duration">957ms</span>
 
   </div>
 
@@ -1582,7 +1624,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print 'customer create without authorization response --&gt;',response</span>
   
-  <span class="lead-duration duration">006ms</span>
+  <span class="lead-duration duration">005ms</span>
 
   </div>
 
@@ -1597,7 +1639,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-14" class="collapse collapsable-details">
-        <pre>09:28:24.398 [print] customer create without authorization response --&gt; {
+        <pre>15:25:40.975 [print] customer create without authorization response --&gt; {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
@@ -1699,7 +1741,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">069ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
@@ -1755,7 +1797,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-17" class="collapse collapsable-details">
-        <pre>09:28:23.825 Environment variable is : popcorn 
+        <pre>15:25:40.015 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -1772,7 +1814,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header Content-Type = 'application/json-patch+json'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -1814,6 +1856,27 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomString = Java.type('utils.RandomValue')</span>
   
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue = Java.type('utils.Extension')</span>
+  
   <span class="lead-duration duration">000ms</span>
 
   </div>
@@ -1854,9 +1917,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">*</span>
-  <span class="name">def randomStringValue = new randomString().createRandomString(7,&quot;string&quot;);</span>
+  <span class="name">def randomStringValue1 = new randomStringValue().randomFirstName();</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">064ms</span>
 
   </div>
 
@@ -1877,7 +1940,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomIntValue = new randomString().createInt(10);</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
@@ -1909,12 +1972,12 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">645ms</span>
+  <span class="lead-duration duration">895ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-18">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Customer Create - Fail Scenarios</span>
   
@@ -1925,15 +1988,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-18" class="collapse collapsable-details ">
+  <div id="element-18" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-19">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-19">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -1943,7 +2006,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-19" class="inner-level collapse collapsable-details ">
+  <div id="steps-19" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -2049,7 +2112,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
   
-  <span class="lead-duration duration">637ms</span>
+  <span class="lead-duration duration">880ms</span>
 
   </div>
 
@@ -2091,7 +2154,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print 'customer create with wrong data response --&gt;',response</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">005ms</span>
 
   </div>
 
@@ -2106,22 +2169,22 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-21" class="collapse collapsable-details">
-        <pre>09:28:24.467 [print] customer create with wrong data response --&gt; {
+        <pre>15:25:40.975 [print] customer create with wrong data response --&gt; {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
-    &quot;Email.NotValid&quot;,
-    &quot;be.user.length&quot;
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
   ],
   &quot;validations&quot;: {
-    &quot;email&quot;: [
-      &quot;Email.NotValid&quot;,
-      &quot;be.user.length&quot;
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
     ]
   },
   &quot;type&quot;: &quot;validation&quot;,
   &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Email.NotValid&quot;,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
   &quot;typeCode&quot;: 400
 }
  
@@ -2137,19 +2200,53 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Email.NotValid'</span>
   
-  <span class="lead-duration duration">005ms</span>
+  <span class="lead-duration duration">008ms</span>
 
   </div>
 
         
 
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-22">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Email.NotValid'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
 
         
         
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-23">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-23" class="collapse collapsable-details">
+        <pre>15:25:40.987 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Email.NotValid'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Email.NotValid'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
 
         
 
@@ -2173,10 +2270,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">035ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-22">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-24">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -2189,13 +2286,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-22" class="collapse collapsable-details ">
+  <div id="element-24" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-25">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2207,7 +2304,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-23" class="inner-level collapse collapsable-details ">
+  <div id="steps-25" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -2225,11 +2322,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-24">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-26">
           <a>Doc string</a>
       </div>
-      <div id="msg-24" class="collapse collapsable-details">
-        <pre>09:28:23.878 Environment variable is : popcorn 
+      <div id="msg-26" class="collapse collapsable-details">
+        <pre>15:25:40.430 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -2307,7 +2404,7 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">*</span>
-  <span class="name">def randomEmailValue = new randomString().createRandomString(7,&quot;email&quot;);</span>
+  <span class="name">def randomStringValue = Java.type('utils.Extension')</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -2328,9 +2425,30 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">*</span>
-  <span class="name">def randomStringValue = new randomString().createRandomString(7,&quot;string&quot;);</span>
+  <span class="name">def randomEmailValue = new randomString().createRandomString(7,&quot;email&quot;);</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue1 = new randomStringValue().randomFirstName();</span>
+  
+  <span class="lead-duration duration">033ms</span>
 
   </div>
 
@@ -2383,12 +2501,12 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">1s 308ms</span>
+  <span class="lead-duration duration">844ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-27">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Customer Create - Fail Scenarios</span>
   
@@ -2399,15 +2517,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-25" class="collapse collapsable-details ">
+  <div id="element-27" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-26">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-28">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -2417,7 +2535,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-26" class="inner-level collapse collapsable-details ">
+  <div id="steps-28" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -2477,10 +2595,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-27">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-29">
           <a>Doc string</a>
       </div>
-      <div id="msg-27" class="collapse collapsable-details">
+      <div id="msg-29" class="collapse collapsable-details">
         <pre>{
    &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
    &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
@@ -2523,7 +2641,536 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
   
-  <span class="lead-duration duration">1s 295ms</span>
+  <span class="lead-duration duration">834ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print 'customer create with wrong data response --&gt;',response</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-30" class="collapse collapsable-details">
+        <pre>15:25:41.305 [print] customer create with wrong data response --&gt; {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Phone.AlreadyUsed'</span>
+  
+  <span class="lead-duration duration">005ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-31">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-31" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Phone.AlreadyUsed'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-32">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-32" class="collapse collapsable-details">
+        <pre>15:25:41.313 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Phone.AlreadyUsed'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Phone.AlreadyUsed'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">076ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-33">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-33" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-34">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-34" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url userApiUrl</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-35">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-35" class="collapse collapsable-details">
+        <pre>15:25:40.993 Environment variable is : popcorn 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header Content-Type = 'application/json-patch+json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">header accept = '*/*'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomString = Java.type('utils.RandomValue')</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue = Java.type('utils.Extension')</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomEmailValue = new randomString().createRandomString(7,&quot;email&quot;);</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue1 = new randomStringValue().randomFirstName();</span>
+  
+  <span class="lead-duration duration">064ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomIntValue = new randomString().createInt(10);</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">794ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-36">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-36" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-37">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-37" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + consoleAuthorization</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerCreateInfo =</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-38">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-38" class="collapse collapsable-details">
+        <pre>{
+   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
+   &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
+   &quot;email&quot;: &quot;#(randomEmailValue)&quot;,
+   &quot;phoneNumber&quot;: &quot;wrongwrong&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request customerCreateInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">776ms</span>
 
   </div>
 
@@ -2576,28 +3223,26 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-28">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-39">
           <a>Doc string</a>
       </div>
-      <div id="msg-28" class="collapse collapsable-details">
-        <pre>09:28:25.186 [print] customer create with wrong data response --&gt; {
+      <div id="msg-39" class="collapse collapsable-details">
+        <pre>15:25:41.863 [print] customer create with wrong data response --&gt; {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
-    &quot;Phone.AlreadyUsed&quot;,
-    &quot;Required&quot;,
-    &quot;be.user.length&quot;
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
   ],
   &quot;validations&quot;: {
-    &quot;phoneNumber&quot;: [
-      &quot;Phone.AlreadyUsed&quot;,
-      &quot;Required&quot;,
-      &quot;be.user.length&quot;
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
     ]
   },
   &quot;type&quot;: &quot;validation&quot;,
   &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Phone.AlreadyUsed&quot;,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
   &quot;typeCode&quot;: 400
 }
  
@@ -2613,19 +3258,53 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Phone.AlreadyUsed'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">005ms</span>
 
   </div>
 
         
 
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-40">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-40" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Phone.AlreadyUsed'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
 
         
         
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-41">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-41" class="collapse collapsable-details">
+        <pre>15:25:41.869 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Phone.AlreadyUsed'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Phone.AlreadyUsed'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
 
         
 
@@ -2649,10 +3328,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">007ms</span>
+  <span class="lead-duration duration">076ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-29">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-42">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -2665,13 +3344,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-29" class="collapse collapsable-details ">
+  <div id="element-42" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-30">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-43">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2683,7 +3362,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-30" class="inner-level collapse collapsable-details ">
+  <div id="steps-43" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -2701,11 +3380,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-31">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-44">
           <a>Doc string</a>
       </div>
-      <div id="msg-31" class="collapse collapsable-details">
-        <pre>09:28:24.307 Environment variable is : popcorn 
+      <div id="msg-44" class="collapse collapsable-details">
+        <pre>15:25:40.992 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -2764,7 +3443,28 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomString = Java.type('utils.RandomValue')</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue = Java.type('utils.Extension')</span>
+  
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -2784,6 +3484,48 @@ $(document).ready(function() {
 <div class="brief passed">
   <span class="keyword indention">*</span>
   <span class="name">def randomEmailValue = new randomString().createRandomString(7,&quot;email&quot;);</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue1 = new randomStringValue().randomFirstName();</span>
+  
+  <span class="lead-duration duration">072ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomIntValue = new randomString().createInt(10);</span>
   
   <span class="lead-duration duration">002ms</span>
 
@@ -2800,48 +3542,6 @@ $(document).ready(function() {
         
   
       </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomStringValue = new randomString().createRandomString(7,&quot;string&quot;);</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomIntValue = new randomString().createInt(10);</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
       </div>
 </div>
 
@@ -2859,12 +3559,12 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">757ms</span>
+  <span class="lead-duration duration">794ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-32">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-45">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Customer Create - Fail Scenarios</span>
   
@@ -2875,15 +3575,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-32" class="collapse collapsable-details ">
+  <div id="element-45" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-33">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-46">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -2893,7 +3593,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-33" class="inner-level collapse collapsable-details ">
+  <div id="steps-46" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -2942,153 +3642,6 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def customerCreateInfo =</span>
   
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-34">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-34" class="collapse collapsable-details">
-        <pre>{
-   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
-   &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
-   &quot;email&quot;: &quot;#(randomEmailValue)&quot;,
-   &quot;phoneNumber&quot;: &quot;wrongwrong&quot;
-}</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request customerCreateInfo</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method POST</span>
-  
-  <span class="lead-duration duration">748ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 400</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">print 'customer create with wrong data response --&gt;',response</span>
-  
-  <span class="lead-duration duration">006ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-35">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-35" class="collapse collapsable-details">
-        <pre>09:28:25.073 [print] customer create with wrong data response --&gt; {
-  &quot;visible&quot;: true,
-  &quot;action&quot;: &quot;default&quot;,
-  &quot;messages&quot;: [
-    &quot;Phone.AlreadyUsed&quot;
-  ],
-  &quot;validations&quot;: {
-    &quot;phoneNumber&quot;: [
-      &quot;Phone.AlreadyUsed&quot;
-    ]
-  },
-  &quot;type&quot;: &quot;validation&quot;,
-  &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Phone.AlreadyUsed&quot;,
-  &quot;typeCode&quot;: 400
-}
- 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">match response.message contains 'Phone.AlreadyUsed'</span>
-  
   <span class="lead-duration duration">001ms</span>
 
   </div>
@@ -3098,337 +3651,12 @@ $(document).ready(function() {
 
         
         
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">000ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-36">
-    
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-36" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-37">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-37" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">url userApiUrl</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-38">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-47">
           <a>Doc string</a>
       </div>
-      <div id="msg-38" class="collapse collapsable-details">
-        <pre>09:28:24.415 Environment variable is : popcorn 
-</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header Content-Type = 'application/json-patch+json'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header accept = '*/*'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomString = Java.type('utils.RandomValue')</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomEmailValue = new randomString().createRandomString(7,&quot;email&quot;);</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomStringValue = new randomString().createRandomString(7,&quot;string&quot;);</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomIntValue = new randomString().createInt(10);</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">770ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-39">
-    
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Customer Create - Fail Scenarios</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-39" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-40">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-40" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">path '/Customer/Create'</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">header Authorization = 'Bearer ' + consoleAuthorization</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def customerCreateInfo =</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-41">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-41" class="collapse collapsable-details">
+      <div id="msg-47" class="collapse collapsable-details">
         <pre>{
    &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
    &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
@@ -3471,7 +3699,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
   
-  <span class="lead-duration duration">757ms</span>
+  <span class="lead-duration duration">776ms</span>
 
   </div>
 
@@ -3513,7 +3741,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print 'customer create with wrong data response --&gt;',response</span>
   
-  <span class="lead-duration duration">011ms</span>
+  <span class="lead-duration duration">010ms</span>
 
   </div>
 
@@ -3524,26 +3752,26 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-42">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-48">
           <a>Doc string</a>
       </div>
-      <div id="msg-42" class="collapse collapsable-details">
-        <pre>09:28:25.186 [print] customer create with wrong data response --&gt; {
+      <div id="msg-48" class="collapse collapsable-details">
+        <pre>15:25:41.863 [print] customer create with wrong data response --&gt; {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
-    &quot;Email.NotValid&quot;,
-    &quot;be.user.length&quot;
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
   ],
   &quot;validations&quot;: {
-    &quot;email&quot;: [
-      &quot;Email.NotValid&quot;,
-      &quot;be.user.length&quot;
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
     ]
   },
   &quot;type&quot;: &quot;validation&quot;,
   &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Email.NotValid&quot;,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
   &quot;typeCode&quot;: 400
 }
  
@@ -3559,19 +3787,53 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Email.NotValid'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">004ms</span>
 
   </div>
 
         
 
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-49">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-49" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Email.NotValid'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
 
         
         
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-50">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-50" class="collapse collapsable-details">
+        <pre>15:25:41.869 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Email.NotValid'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Email.NotValid'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
 
         
 
@@ -3595,10 +3857,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">024ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-43">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-51">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -3611,13 +3873,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-43" class="collapse collapsable-details ">
+  <div id="element-51" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-44">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-52">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3629,7 +3891,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-44" class="inner-level collapse collapsable-details ">
+  <div id="steps-52" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -3647,11 +3909,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-45">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-53">
           <a>Doc string</a>
       </div>
-      <div id="msg-45" class="collapse collapsable-details">
-        <pre>09:28:24.476 Environment variable is : popcorn 
+      <div id="msg-53" class="collapse collapsable-details">
+        <pre>15:25:41.169 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -3710,6 +3972,27 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def randomString = Java.type('utils.RandomValue')</span>
   
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue = Java.type('utils.Extension')</span>
+  
   <span class="lead-duration duration">000ms</span>
 
   </div>
@@ -3750,9 +4033,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">*</span>
-  <span class="name">def randomStringValue = new randomString().createRandomString(7,&quot;string&quot;);</span>
+  <span class="name">def randomStringValue1 = new randomStringValue().randomFirstName();</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">019ms</span>
 
   </div>
 
@@ -3805,12 +4088,12 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">711ms</span>
+  <span class="lead-duration duration">681ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-46">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-54">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Customer Create - Fail Scenarios</span>
   
@@ -3821,15 +4104,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-46" class="collapse collapsable-details ">
+  <div id="element-54" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-47">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-55">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -3839,7 +4122,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-47" class="inner-level collapse collapsable-details ">
+  <div id="steps-55" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -3899,10 +4182,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-48">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-56">
           <a>Doc string</a>
       </div>
-      <div id="msg-48" class="collapse collapsable-details">
+      <div id="msg-56" class="collapse collapsable-details">
         <pre>{
    &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
    &quot;phoneCountryId&quot;: &quot;&quot;,
@@ -3945,7 +4228,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
   
-  <span class="lead-duration duration">707ms</span>
+  <span class="lead-duration duration">674ms</span>
 
   </div>
 
@@ -3987,7 +4270,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print 'customer create with wrong data response --&gt;',response</span>
   
-  <span class="lead-duration duration">002ms</span>
+  <span class="lead-duration duration">005ms</span>
 
   </div>
 
@@ -3998,24 +4281,26 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-49">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-57">
           <a>Doc string</a>
       </div>
-      <div id="msg-49" class="collapse collapsable-details">
-        <pre>09:28:25.188 [print] customer create with wrong data response --&gt; {
+      <div id="msg-57" class="collapse collapsable-details">
+        <pre>15:25:41.873 [print] customer create with wrong data response --&gt; {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
-    &quot;Error converting value \&quot;\&quot; to type 'System.Guid'. Path 'phoneCountryId', line 1, position 41.&quot;
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
   ],
   &quot;validations&quot;: {
-    &quot;phoneCountryId&quot;: [
-      &quot;Error converting value \&quot;\&quot; to type 'System.Guid'. Path 'phoneCountryId', line 1, position 41.&quot;
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
     ]
   },
   &quot;type&quot;: &quot;validation&quot;,
   &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Error converting value \&quot;\&quot; to type 'System.Guid'. Path 'phoneCountryId', line 1, position 41.&quot;,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
   &quot;typeCode&quot;: 400
 }
  
@@ -4031,19 +4316,53 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Error converting value'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">001ms</span>
 
   </div>
 
         
 
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-58">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-58" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Error converting value'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
 
         
         
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-59">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-59" class="collapse collapsable-details">
+        <pre>15:25:41.876 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Error converting value'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Error converting value'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
 
         
 
@@ -4067,10 +4386,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">019ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-50">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-60">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -4083,13 +4402,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-50" class="collapse collapsable-details ">
+  <div id="element-60" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-51">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-61">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -4101,7 +4420,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-51" class="inner-level collapse collapsable-details ">
+  <div id="steps-61" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -4119,11 +4438,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-52">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-62">
           <a>Doc string</a>
       </div>
-      <div id="msg-52" class="collapse collapsable-details">
-        <pre>09:28:25.084 Environment variable is : popcorn 
+      <div id="msg-62" class="collapse collapsable-details">
+        <pre>15:25:41.321 Environment variable is : popcorn 
 </pre>
       </div>
     </div>
@@ -4201,6 +4520,27 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">*</span>
+  <span class="name">def randomStringValue = Java.type('utils.Extension')</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
   <span class="name">def randomEmailValue = new randomString().createRandomString(7,&quot;email&quot;);</span>
   
   <span class="lead-duration duration">000ms</span>
@@ -4222,9 +4562,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">*</span>
-  <span class="name">def randomStringValue = new randomString().createRandomString(7,&quot;string&quot;);</span>
+  <span class="name">def randomStringValue1 = new randomStringValue().randomFirstName();</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">017ms</span>
 
   </div>
 
@@ -4277,12 +4617,12 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">537ms</span>
+  <span class="lead-duration duration">741ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-53">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-63">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Customer Create - Fail Scenarios</span>
   
@@ -4293,15 +4633,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-53" class="collapse collapsable-details ">
+  <div id="element-63" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-54">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-64">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -4311,7 +4651,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-54" class="inner-level collapse collapsable-details ">
+  <div id="steps-64" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -4371,10 +4711,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-55">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-65">
           <a>Doc string</a>
       </div>
-      <div id="msg-55" class="collapse collapsable-details">
+      <div id="msg-65" class="collapse collapsable-details">
         <pre>{
    &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
    &quot;phoneCountryId&quot;: &quot;wrong&quot;,
@@ -4417,7 +4757,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
   
-  <span class="lead-duration duration">535ms</span>
+  <span class="lead-duration duration">729ms</span>
 
   </div>
 
@@ -4459,7 +4799,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print 'customer create with wrong data response --&gt;',response</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">008ms</span>
 
   </div>
 
@@ -4470,24 +4810,26 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-56">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-66">
           <a>Doc string</a>
       </div>
-      <div id="msg-56" class="collapse collapsable-details">
-        <pre>09:28:25.623 [print] customer create with wrong data response --&gt; {
+      <div id="msg-66" class="collapse collapsable-details">
+        <pre>15:25:42.081 [print] customer create with wrong data response --&gt; {
   &quot;visible&quot;: true,
   &quot;action&quot;: &quot;default&quot;,
   &quot;messages&quot;: [
-    &quot;Error converting value \&quot;wrong\&quot; to type 'System.Guid'. Path 'phoneCountryId', line 1, position 46.&quot;
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
   ],
   &quot;validations&quot;: {
-    &quot;phoneCountryId&quot;: [
-      &quot;Error converting value \&quot;wrong\&quot; to type 'System.Guid'. Path 'phoneCountryId', line 1, position 46.&quot;
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
     ]
   },
   &quot;type&quot;: &quot;validation&quot;,
   &quot;title&quot;: null,
-  &quot;message&quot;: &quot;Error converting value \&quot;wrong\&quot; to type 'System.Guid'. Path 'phoneCountryId', line 1, position 46.&quot;,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
   &quot;typeCode&quot;: 400
 }
  
@@ -4503,19 +4845,53 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Then</span>
   <span class="name">match response.message contains 'Error converting value'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
         
 
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-67">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-67" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Error converting value'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
 
         
         
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-68">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-68" class="collapse collapsable-details">
+        <pre>15:25:42.085 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Error converting value'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Error converting value'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
 
         
 

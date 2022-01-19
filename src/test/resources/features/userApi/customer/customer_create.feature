@@ -6,8 +6,9 @@ Feature: Customer Create
     * header accept = '*/*'
 
     * def randomString = Java.type('utils.RandomValue')
+    * def randomStringValue = Java.type('utils.Extension')
     * def randomEmailValue = new randomString().createRandomString(7,"email");
-    * def randomStringValue = new randomString().createRandomString(7,"string");
+    * def randomStringValue1 = new randomStringValue().randomFirstName();
     * def randomIntValue = new randomString().createInt(10);
 
   @customerInfo
@@ -17,7 +18,7 @@ Feature: Customer Create
     * def customerCreateInfo =
     """
        {
-          "fullName": "#(randomStringValue)",
+          "fullName": "#(randomStringValue1)",
           "phoneCountryId": "59c4edba-f347-45b3-a5c9-aed7ac852ff8",
           "email": "#(randomEmailValue)",
           "phoneNumber": "#(randomIntValue)"

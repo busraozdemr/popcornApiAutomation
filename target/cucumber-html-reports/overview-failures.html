@@ -76,7 +76,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Popcorn Api Automation Result</td>
-            <td>18 Jan 2022, 09:28</td>
+            <td>19 Jan 2022, 15:26</td>
     </tr>
   </tbody>
 </table>
@@ -111,7 +111,1820 @@ $(document).ready(function() {
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 
-              <p>You have no failed scenarios in your Cucumber report</p>
+              <div class="elements">
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_features-userApi-customer-customer_create-feature_3.html">features/userApi/customer/customer_create.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">895ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + consoleAuthorization</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerCreateInfo =</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>{
+   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
+   &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
+   &quot;email&quot;: &quot;&quot;,
+   &quot;phoneNumber&quot;: &quot;#(randomIntValue)&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request customerCreateInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">880ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print 'customer create with wrong data response --&gt;',response</span>
+  
+  <span class="lead-duration duration">005ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>15:25:40.975 [print] customer create with wrong data response --&gt; {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Email.NotValid'</span>
+  
+  <span class="lead-duration duration">008ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-5">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Email.NotValid'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>15:25:40.987 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Email.NotValid'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Email.NotValid'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_features-userApi-customer-customer_create-feature_3.html">features/userApi/customer/customer_create.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">844ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-7" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-8">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-8" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + consoleAuthorization</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerCreateInfo =</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details">
+        <pre>{
+   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
+   &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
+   &quot;email&quot;: &quot;#(randomEmailValue)&quot;,
+   &quot;phoneNumber&quot;: &quot;&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request customerCreateInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">834ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print 'customer create with wrong data response --&gt;',response</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>15:25:41.305 [print] customer create with wrong data response --&gt; {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Phone.AlreadyUsed'</span>
+  
+  <span class="lead-duration duration">005ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-11">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Phone.AlreadyUsed'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-12">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details">
+        <pre>15:25:41.313 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Phone.AlreadyUsed'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Phone.AlreadyUsed'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_features-userApi-customer-customer_create-feature_3.html">features/userApi/customer/customer_create.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">794ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-13" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-14">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-14" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + consoleAuthorization</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerCreateInfo =</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details">
+        <pre>{
+   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
+   &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
+   &quot;email&quot;: &quot;#(randomEmailValue)&quot;,
+   &quot;phoneNumber&quot;: &quot;wrongwrong&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request customerCreateInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">776ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print 'customer create with wrong data response --&gt;',response</span>
+  
+  <span class="lead-duration duration">010ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details">
+        <pre>15:25:41.863 [print] customer create with wrong data response --&gt; {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Phone.AlreadyUsed'</span>
+  
+  <span class="lead-duration duration">005ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-17">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Phone.AlreadyUsed'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>15:25:41.869 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Phone.AlreadyUsed'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Phone.AlreadyUsed'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_features-userApi-customer-customer_create-feature_3.html">features/userApi/customer/customer_create.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">794ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-19">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-19" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-20">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-20" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + consoleAuthorization</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerCreateInfo =</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-21" class="collapse collapsable-details">
+        <pre>{
+   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
+   &quot;phoneCountryId&quot;: &quot;59c4edba-f347-45b3-a5c9-aed7ac852ff8&quot;,
+   &quot;email&quot;: &quot;abc&quot;,
+   &quot;phoneNumber&quot;: &quot;#(randomIntValue)&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request customerCreateInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">776ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print 'customer create with wrong data response --&gt;',response</span>
+  
+  <span class="lead-duration duration">010ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details">
+        <pre>15:25:41.863 [print] customer create with wrong data response --&gt; {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Email.NotValid'</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-23">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-23" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Email.NotValid'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-24">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-24" class="collapse collapsable-details">
+        <pre>15:25:41.869 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Email.NotValid'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Email.NotValid'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_features-userApi-customer-customer_create-feature_3.html">features/userApi/customer/customer_create.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">681ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-25">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-25" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-26">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-26" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + consoleAuthorization</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerCreateInfo =</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-27">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-27" class="collapse collapsable-details">
+        <pre>{
+   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
+   &quot;phoneCountryId&quot;: &quot;&quot;,
+   &quot;email&quot;: &quot;#(randomEmailValue)&quot;,
+   &quot;phoneNumber&quot;: &quot;#(randomIntValue)&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request customerCreateInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">674ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print 'customer create with wrong data response --&gt;',response</span>
+  
+  <span class="lead-duration duration">005ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-28">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-28" class="collapse collapsable-details">
+        <pre>15:25:41.873 [print] customer create with wrong data response --&gt; {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Error converting value'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-29">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-29" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Error converting value'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-30" class="collapse collapsable-details">
+        <pre>15:25:41.876 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Error converting value'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Error converting value'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_features-userApi-customer-customer_create-feature_3.html">features/userApi/customer/customer_create.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">741ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-31">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Customer Create - Fail Scenarios</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-31" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-32">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-32" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/Customer/Create'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + consoleAuthorization</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def customerCreateInfo =</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-33">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-33" class="collapse collapsable-details">
+        <pre>{
+   &quot;fullName&quot;: &quot;#(randomStringValue)&quot;,
+   &quot;phoneCountryId&quot;: &quot;wrong&quot;,
+   &quot;email&quot;: &quot;#(randomEmailValue)&quot;,
+   &quot;phoneNumber&quot;: &quot;#(randomIntValue)&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request customerCreateInfo</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">729ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 400</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print 'customer create with wrong data response --&gt;',response</span>
+  
+  <span class="lead-duration duration">008ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-34">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-34" class="collapse collapsable-details">
+        <pre>15:25:42.081 [print] customer create with wrong data response --&gt; {
+  &quot;visible&quot;: true,
+  &quot;action&quot;: &quot;default&quot;,
+  &quot;messages&quot;: [
+    &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+    &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+  ],
+  &quot;validations&quot;: {
+    &quot;fullName&quot;: [
+      &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+      &quot;Unexpected character encountered while parsing value: }. Path 'fullName', line 1, position 13.&quot;
+    ]
+  },
+  &quot;type&quot;: &quot;validation&quot;,
+  &quot;title&quot;: null,
+  &quot;message&quot;: &quot;Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.&quot;,
+  &quot;typeCode&quot;: 400
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response.message contains 'Error converting value'</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-35">
+          <a>match failed: CONTAINS</a>
+      </div>
+      <div id="msg-35" class="collapse collapsable-details  in ">
+        <pre>match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Error converting value'
+
+classpath:features/userApi/customer/customer_create.feature:101</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-36">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-36" class="collapse collapsable-details">
+        <pre>15:25:42.085 classpath:features/userApi/customer/customer_create.feature:101
+Then match response.message contains 'Error converting value'
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'Unexpected character encountered while parsing value: {. Path 'fullName', line 1, position 13.'
+  'Error converting value'
+
+classpath:features/userApi/customer/customer_create.feature:101
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                  </div>
       
     </div>
   </div>
